@@ -1,0 +1,27 @@
+.mainSection {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.mainHeading {
+  font-family: "Ubuntu", sans-serif;
+  color: #800080;
+  font-size: 40px;
+}
+
+.mainContent {
+  font-family: "Ubuntu", sans-serif;
+  color: #800080;
+  font-size: 20px;
+}
+
+.loginBtn {
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #800080;
+  cursor: pointer;
+}

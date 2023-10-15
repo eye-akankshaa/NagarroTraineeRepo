@@ -1,0 +1,57 @@
+<button type="button" class="homeBtn" routerLink="/">Home</button>
+
+<div class="container-fluid col-md-4 p-5">
+  <h4>Login</h4>
+  <hr />
+  <form [formGroup]="loginForm" (ngSubmit)="loginSubmitted()">
+    <div class="mb-3">
+      <input
+        name="userid"
+        type="text"
+        class="form-control"
+        formControlName="userid"
+        id="userid"
+        placeholder="Email address"
+      />
+
+      <div
+        class="form-text text-danger"
+        *ngIf="Email.errors?.['required'] && (Email.dirty || Email.touched)"
+      >
+        Email is required
+      </div>
+      <div
+        class="form-text text-danger"
+        *ngIf="Email.errors?.['email'] && (Email.dirty || Email.touched)"
+      >
+        Email is invalid
+      </div>
+    </div>
+    <div class="mb-3">
+      <input
+        type="password"
+        class="form-control"
+        formControlName="pwd"
+        id="pwd"
+        placeholder="Password"
+      />
+
+      <div
+        class="form-text text-danger"
+        *ngIf="PWD.errors?.['required'] && (PWD.dirty || PWD.touched)"
+      >
+        Password is required
+      </div>
+
+      <div
+        class="form-text text-danger"
+        *ngIf="PWD.errors?.['minlength']|| PWD.errors?.['maxlength'] && (PWD.dirty || PWD.touched)"
+      >
+        Password should be atleast 6 and atmost 15 character.
+      </div>
+    </div>
+    <button type="submit" [disabled]="loginForm.invalid">Login</button>
+  </form>
+</div>
+
+<router-outlet></router-outlet>

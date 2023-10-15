@@ -1,0 +1,72 @@
+<button class="backBtn" (click)="backPage()">Back</button>
+
+<div class="container d-flex align-items-center justify-content-center mt-5">
+  <div class="card">
+    <div class="card-body px-5 py-4">
+      <div class="carDetails">
+        <h4>Car Details</h4>
+        <hr />
+
+        <p>Car Model :: {{carData.model}}</p>
+        <p>Car Rental Price :: {{carData.rentalPrice}}</p>
+      </div>
+
+      <div class="userDetails">
+        <h4>User Details</h4>
+        <hr />
+        <p>User Maker :: {{currentUser.name}}</p>
+        <p>User Model :: {{currentUser.email}}</p>
+      </div>
+
+      <div class="container">
+        <div class="carAgreementForm">
+          <form [formGroup]="rentalForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+              <label for="startDate">Start Date</label><br />
+              <input
+                type="date"
+                name="startDate"
+                formControlName="startDate"
+                id="startDate"
+                [(ngModel)]="startdate"
+                readonly
+              /><br />
+
+              <label for="endDate">End Date</label><br />
+              <input
+                type="date"
+                name="endDate"
+                formControlName="endDate"
+                id="startDate"
+                [(ngModel)]="enddate"
+                (change)="findTotalDuration($event)"
+                [attr.min]="minDate"
+              /><br />
+
+              <label for="durtation">Total Duration</label><br />
+              <input
+                type="number"
+                name="duration"
+                id="duration"
+                formControlName="totalDuration"
+                [(ngModel)]="tDuration"
+              />
+
+              <button
+                type="button"
+                class="agreementBtn"
+                (click)="cancelAgreement()"
+              >
+                Cancel Agreement
+              </button>
+
+              <button type="submit" class="agreementBtn">
+                Confirm Agreement
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

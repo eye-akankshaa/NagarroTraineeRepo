@@ -1,0 +1,102 @@
+<button class="myAgreementBtn" (click)="logout()">Logout</button>
+<button class="myAgreementBtn" (click)="newCar()" *ngIf="isAdmin">
+  Add New Car
+</button>
+<button class="myAgreementBtn" (click)="allRentalAgreements()" *ngIf="isAdmin">
+  All Rental Agreements
+</button>
+<button class="myAgreementBtn" (click)="myAgreement()" *ngIf="!isAdmin">
+  My Agreements
+</button>
+<button class="myAgreementBtn" (click)="agreementInspection()" *ngIf="isAdmin">
+  Agreements For Inspection
+</button>
+
+<div class="container allCars">
+  <div class="container mt-4">
+    <div class="row mb-3">
+      <div class="col-md-3">
+        <input
+          type="text"
+          id="filterModel"
+          class="form-control"
+          [(ngModel)]="modelFilter"
+          (change)="applyFilters()"
+          placeholder="Filter by Model"
+        />
+      </div>
+      <div class="col-md-3">
+        <input
+          type="text"
+          id="filterMaker"
+          class="form-control"
+          [(ngModel)]="makerFilter"
+          (change)="applyFilters()"
+          placeholder="Filter by Maker"
+        />
+      </div>
+      <div class="col-md-3">
+        <input
+          type="number"
+          id="filterPrice"
+          class="form-control"
+          [(ngModel)]="priceFilter"
+          (change)="applyFilters()"
+          placeholder="Filter by Rental Price"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr class="headings">
+          <th>Maker</th>
+          <th>Model</th>
+          <th>Rental Price</th>
+          <th>Availability Status</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let car of filteredCars">
+          <td>{{ car.maker }}</td>
+          <td>{{ car.model }}</td>
+          <td>{{ car.rentalPrice}}</td>
+          <td>{{ car.availabilityStatus == true ? 'Yes' : 'No' }}</td>
+          <td>
+            <button
+              (click)="onCarDetails(car.vehicleId)"
+              class="rentIt"
+              *ngIf="!isAdmin"
+              [disabled]="!car.availabilityStatus"
+            >
+              Rent it
+            </button>
+          </td>
+          <td>
+            <button
+              (click)="onUpdateCarDetails(car.vehicleId)"
+              class="rentIt"
+              *ngIf="isAdmin"
+              [disabled]="!car.availabilityStatus"
+            >
+              Update
+            </button>
+          </td>
+          <td>
+            <button
+              (click)="onCarDelete(car.vehicleId)"
+              class="rentIt"
+              *ngIf="isAdmin"
+              [disabled]="!car.availabilityStatus"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

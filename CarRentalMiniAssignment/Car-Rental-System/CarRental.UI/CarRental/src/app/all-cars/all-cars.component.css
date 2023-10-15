@@ -1,0 +1,42 @@
+.allCars{
+    padding: 100px;
+}
+
+.headings{
+    font-family:'Ubuntu', sans-serif;
+}
+
+button[disabled]{
+
+    background-color: plum;
+
+}
+
+.rentIt{
+    font-family:'Ubuntu', sans-serif;
+    background-color:#800080;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.myAgreementBtn{
+    font-family:'Ubuntu', sans-serif;
+    background-color:#800080;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    float: right;
+    margin: 15px;
+}
+
+
+input{
+    border: 1px solid #800080;
+    border-radius: 4px;
+    margin: 2px;
+}

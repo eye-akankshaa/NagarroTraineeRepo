@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="carAgreementForm">
+    <form [formGroup]="rentalForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="startDate">Start Date</label><br />
+        <input
+          type="date"
+          name="startDate"
+          formControlName="startDate"
+          id="startDate"
+          [(ngModel)]="startdate"
+          readonly
+        />
+        <br />
+
+        <label for="endDate">End Date</label><br />
+        <input
+          type="date"
+          name="endDate"
+          formControlName="endDate"
+          id="startDate"
+          (change)="findTotalDuration($event)"
+          [(ngModel)]="enddate"
+          [attr.min]="minDate"
+        /><br />
+
+        <label for="durtation">Total Duration</label><br />
+        <input
+          type="number"
+          name="duration"
+          id="duration"
+          formControlName="totalDuration"
+          [(ngModel)]="tDuration"
+        />
+
+        <button class="agreementBtn" (click)="back()">Back</button>
+
+        <button type="submit" class="agreementBtn">Update Agreement</button>
+      </div>
+    </form>
+  </div>
+</div>

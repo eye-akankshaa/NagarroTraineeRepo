@@ -1,0 +1,59 @@
+<button type="button" class="backBtn" routerLink="/allCars">Back</button>
+
+<div class="container">
+  <div class="carAgreementForm">
+    <h4>Add a new car</h4>
+    <hr />
+    <form [formGroup]="addNewCarForm" (ngSubmit)="onSubmit()">
+      
+      <div class="form-group">
+        <label for="maker">Maker</label><br />
+        <input
+          type="text"
+          name="maker"
+          formControlName="maker"
+          id="maker"
+          placeholder="Maker"
+          required
+        /><br />
+        <div class="form-text text-danger" *ngIf="Maker.errors?.['required']">
+          Maker Name is required
+        </div>
+       
+        
+
+        <label for="model">Model</label><br />
+        <input
+          type="text"
+          name="model"
+          formControlName="model"
+          id="model"
+          placeholder="Model"
+          required
+        /><br />
+        <div class="form-text text-danger" *ngIf="Model.errors?.['required']">
+          Model Name is required
+        </div>
+    
+
+        <label for="rentalPrice">Rental Price</label><br />
+        <input
+          type="number"
+          name="rentalPrice"
+          id="rentalPrice"
+          formControlName="rentalPrice"
+          placeholder="Rental price"
+          required
+        /><br />
+        <div
+          class="form-text text-danger"
+          *ngIf="RentalPrice.errors?.['required']"
+        >
+          Rental Price is required
+        </div>
+
+        <button type="submit" class="agreementBtn">Add</button>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+.allCars{
+    padding: 70px;
+}
+
+.headings{
+    font-family:'Ubuntu', sans-serif;
+}
+
+.rentIt{
+    font-family:'Ubuntu', sans-serif;
+    background-color: #800080;
+    padding: 8px 25px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.myAgreementBtn{
+    font-family:'Ubuntu', sans-serif;
+    background-color: #800080;
+    padding: 8px 25px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    float: right;
+    margin: 15px;
+}

@@ -1,0 +1,128 @@
+<button type="button" class="backBtn" routerLink="/allCars">Back</button>
+
+ <div class="container">
+    <div class="carAgreementForm">
+        <h4>Update Car</h4>
+        <hr>
+        <form [formGroup]="addNewCarForm" (ngSubmit)="onSubmit()" >
+            <div class="form-group">
+
+                <label for="maker">Maker</label><br>
+                <input type="text" name="maker" formControlName="maker" id="maker" placeholder="Maker"  minlength="2" pattern="[A-Za-z ]+" [(ngModel)]="carData.maker" required><br>
+                <div class="form-text text-danger"
+                *ngIf="Maker.errors?.['required']">
+                Maker Name is required
+               </div>
+              
+               <label for="maker">Model</label><br>
+                <input type="text" name="model" formControlName="model" id="model" placeholder="Model" minlength="2" [(ngModel)]="carData.model"  required><br>
+                   <div class="form-text text-danger"
+                  *ngIf="Model.errors?.['required']">
+                  Model Name is required
+                 </div>
+              
+                 <label for="rentalPrice">Rental Price</label><br>
+                <input type="number" name="rentalPrice" id="rentalPrice" formControlName="rentalPrice" [(ngModel)]="carData.rentalPrice" placeholder="Rental price" required><br>
+                <div class="form-text text-danger"
+                  *ngIf="RentalPrice.errors?.['required']">
+                  Rental Price is required
+                 </div>
+                 
+                <button type="submit" class="agreementBtn">Update</button>
+    
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--Experiment-->
+
+
+
+
+
+<!-- <div class="container">
+    <div class="carAgreementForm">
+        <h4>Update Car</h4>
+        <hr>
+        <form [formGroup]="addNewCarForm" (ngSubmit)="onSubmit()" >
+            <div class="form-group">
+
+               
+              
+                 <input type="text" name="maker" formControlName="maker" id="maker" placeholder="Maker">
+                 <div class="form-text text-danger" *ngIf="addNewCarForm.get('maker').hasError('alphabeticOnly')">
+                   Maker Name must contain alphabetic characters only
+                 </div>
+                 
+                 <input type="text" name="model" formControlName="model" id="model" placeholder="Model">
+                 <div class="form-text text-danger" *ngIf="addNewCarForm.get('model').hasError('alphabeticOnly')">
+                   Model Name must contain alphabetic characters only
+                 </div>
+
+
+                 <label for="rentalPrice">Rental Price</label><br>
+                <input type="number" name="rentalPrice" id="rentalPrice" formControlName="rentalPrice" [(ngModel)]="carData.rentalPrice" placeholder="Rental price" required><br>
+ <div class="form-text text-danger"
+                  *ngIf="RentalPrice.errors?.['required']">
+                  Rental Price is required
+                 </div>
+                 
+                <button type="submit" class="agreementBtn">Update</button>
+    
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+ -->

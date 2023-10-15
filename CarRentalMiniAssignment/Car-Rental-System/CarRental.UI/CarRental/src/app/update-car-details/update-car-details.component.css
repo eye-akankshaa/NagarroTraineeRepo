@@ -1,0 +1,42 @@
+
+.carAgreementForm{
+    padding: 50px;
+    width: 100%;
+}
+
+
+
+input{
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 0px;
+    border: 2px solid #800080;
+    margin-top: 5px;
+}
+
+h4{
+    font-family:'Ubuntu', sans-serif;
+}
+
+.agreementBtn{
+    font-family:'Ubuntu', sans-serif;
+    background-color: #800080;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.backBtn{
+    font-family:'Ubuntu', sans-serif;
+    background-color: #800080;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin: 15px;
+}
+

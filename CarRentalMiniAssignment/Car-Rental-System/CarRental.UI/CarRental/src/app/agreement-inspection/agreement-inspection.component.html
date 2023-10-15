@@ -1,0 +1,51 @@
+<button class="myAgreementBtn" (click)="logout()">Logout</button>
+<button class="myAgreementBtn" (click)="back()">Back</button>
+
+<div class="container allCars">
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr class="headings">
+          <th>Agreement Id</th>
+          <th>User Id</th>
+          <th>Vechile Id</th>
+          <th>Maker</th>
+          <th>Model</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Total Price</th>
+          <th>Rental Duration</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let agreement of allAgreements">
+          <td *ngIf="agreement.isReturnRequired">{{agreement.agreementID}}</td>
+          <td *ngIf="agreement.isReturnRequired">{{agreement.userId}}</td>
+          <td *ngIf="agreement.isReturnRequired">{{agreement.vehicleId}}</td>
+          <td *ngIf="agreement.isReturnRequired">{{agreement.maker}}</td>
+          <td *ngIf="agreement.isReturnRequired">{{agreement.model}}</td>
+
+          <td *ngIf="agreement.isReturnRequired">
+            {{agreement.startDate | date:'dd/MM/yyyy'}}
+          </td>
+          <td *ngIf="agreement.isReturnRequired">
+            {{agreement.endDate | date:'dd/MM/yyyy'}}
+          </td>
+          <td *ngIf="agreement.isReturnRequired">{{agreement.totalPrice}}</td>
+          <td *ngIf="agreement.isReturnRequired">
+            {{agreement.rentalDuration}} days
+          </td>
+          <td *ngIf="agreement.isReturnRequired">
+            <button
+              class="rentIt"
+              (click)="deleteAgreementByAdmin(agreement.agreementID,agreement.vehicleId)"
+            >
+              Inspection Done
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

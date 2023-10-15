@@ -1,0 +1,52 @@
+<button class="myAgreementBtn" (click)="logout()">Logout</button>
+<button class="myAgreementBtn" (click)="back()">Back</button>
+
+<div class="container allCars">
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr class="headings">
+          <th>Agreement Id</th>
+          <th>User Id</th>
+          <th>Vehicle Id</th>
+          <th>Maker</th>
+          <th>Model</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Total Price</th>
+          <th>Rental Duration</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let agreement of allAgreements">
+          <td>{{agreement.agreementID}}</td>
+          <td>{{agreement.userId}}</td>
+          <td>{{agreement.vehicleId}}</td>
+          <td>{{agreement.maker}}</td>
+          <td>{{agreement.model}}</td>
+          <td>{{agreement.startDate | date:'dd/MM/yyyy'}}</td>
+          <td>{{agreement.endDate | date:'dd/MM/yyyy'}}</td>
+          <td>{{agreement.totalPrice}}</td>
+          <td>{{agreement.rentalDuration}} days</td>
+          <td>
+            <button
+              class="rentIt"
+              (click)="UpdateAgreement(agreement.agreementID)"
+            >
+              Update
+            </button>
+          </td>
+          <td>
+            <button
+              class="rentIt"
+              (click)="deleteAgreementByAdmin(agreement.agreementID)"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

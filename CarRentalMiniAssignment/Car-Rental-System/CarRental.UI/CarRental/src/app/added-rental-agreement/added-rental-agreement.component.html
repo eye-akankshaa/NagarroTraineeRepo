@@ -1,0 +1,46 @@
+<button type="button" class="backBtn" routerLink="/allCars">Back</button>
+
+<div class="container">
+  <div class="carAgreementForm">
+    <h4>Agreement Form</h4>
+    <hr />
+    <form [formGroup]="rentalForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="startDate">Start Date</label><br />
+        <input
+          type="date"
+          name="startDate"
+          formControlName="startDate"
+          id="startDate"
+          [(ngModel)]="selectedDate"
+          readonly
+        />
+
+        <br />
+
+        <label for="endDate">End Date</label><br />
+        <input
+          type="date"
+          name="endDate"
+          formControlName="endDate"
+          id="startDate"
+          (change)="findTotalDuration($event)"
+          [attr.min]="minDate"
+        />
+        <br />
+
+        <label for="durtation">Total Duration</label><br />
+        <input
+          type="number"
+          name="duration"
+          id="duration"
+          formControlName="totalDuration"
+          [(ngModel)]="tDuration"
+          min="1"
+        />
+
+        <button type="submit" class="agreementBtn">Next</button>
+      </div>
+    </form>
+  </div>
+</div>
