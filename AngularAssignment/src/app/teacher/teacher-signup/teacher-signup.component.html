@@ -1,0 +1,17 @@
+<div class="container-fluid col-md-4 p-5 sform">
+    <h4>Register as teacher</h4>
+    <hr>
+    <form [formGroup]="signupForm" (ngSubmit)="signUp()" ngNativeValidate>
+        <div class="my-3">
+            <label for="userId" class="form-label ">Username</label>
+            <input type="text" class="form-control" formControlName="userId" id="userId" required>
+        </div>
+        <div class="my-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control"formControlName="password" id="password" required>
+        </div>
+        <button type="submit" class="btn btn-primary my-3" ><strong>Signup</strong></button>
+        <span><a href="/teacher/login" class="mx-4"><strong>Existing User?</strong></a></span>
+    </form>
+    
+</div>

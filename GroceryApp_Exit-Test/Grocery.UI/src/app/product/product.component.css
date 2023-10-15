@@ -1,0 +1,92 @@
+#navbarSupportedContent
+{
+    background-color: whitesmoke;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .pagination {
+    display: inline-block;
+  }
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .pagination a.active {
+    background-color:black;
+    color: white;
+  }
+
+
+  td,th {
+
+    text-align: center;
+
+    min-width: 180px;
+
+    vertical-align: middle;
+
+}
+
+
+
+
+.pt50 {
+
+    padding-top: 50px;
+
+    padding-bottom: 50px;
+
+}
+
+
+
+
+ul {
+
+    padding-inline-start: 0px !important;
+
+}
+
+
+
+
+img {
+
+    height: 100px !important;
+
+    width: 100px !important;
+
+}
+
+
+
+
+.btn-primary {
+
+    border-radius: 100px;
+
+    height: 40px !important;
+
+    width: 40x !important;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-width: 50%;
+
+}
+

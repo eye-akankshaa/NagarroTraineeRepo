@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Grocery_App_Data_Access_Layer\Grocery_App_Data_Access_Layer.csproj" />
+    <ProjectReference Include="..\Grocery_App_Shared_Library\Grocery_App_Shared_Library.csproj" />
+  </ItemGroup>
+
+</Project>

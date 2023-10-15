@@ -1,0 +1,49 @@
+<a href="/" class="mx-4 mt-5">Back</a>
+
+<form [formGroup]="resultForm" (ngSubmit)="checkResult()">
+    <div class="result">
+        <h1>Check your Result</h1>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Roll No.</mat-label>
+                <input matInput placeholder="Ex.- 121" formControlName="rollNo"  pattern="[0-9]*">
+                <mat-error *ngIf="resultForm.controls['rollNo'].hasError('pattern')">
+                    Only numbers are allowed
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <label for="dob" class="form-label"><em>Date of Birth</em></label>
+            <input type="date" class="form-control" formControlName="dob" id="dob" required>
+        </div>
+        <div class="action">
+            <!-- <button mat-raised-button type="button">Clear</button> -->
+            <button mat-raised-button color="primary" type="submit">Check</button>
+        </div>
+    </div>
+</form>
+
+<div *ngIf="showResult" class ="result">
+    <button class="close-button" mat-icon-button (click)="closeResult()" matTooltip="close">
+        <mat-icon>close</mat-icon>
+    </button>
+    <h2>Result</h2>
+    <table class="result-table">
+        <tr>
+            <td class="result-label">Roll No.:</td>
+            <td>{{student.rollNo}}</td>
+        </tr>
+        <tr>
+            <td class="result-label">Name:</td>
+            <td>{{student.name}}</td>
+        </tr>
+        <tr>
+            <td class="result-label">Date of birth:</td>
+            <td>{{student.dob | date: 'dd/MM/yyyy'}}</td>
+        </tr>
+        <tr>
+            <td class="result-label">Score:</td>
+            <td>{{student.score}}%</td>
+        </tr>
+    </table>
+</div>

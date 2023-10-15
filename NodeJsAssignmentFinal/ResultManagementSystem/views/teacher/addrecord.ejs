@@ -1,0 +1,41 @@
+<div>
+<a href="/teacher/allrecords" class="btn btn-sm btn-dark goBack" style="margin-top: 5px;float:right;">Go back!</a><br>
+</div>
+
+ <div class="container d-flex align-items-center justify-content-center mt-5">
+    <div class="card">
+        <div class="card-body px-5 py-4">
+            <form method="POST" onsubmit="return validateForm();">
+                <h3 class="card-title text-center">Add Record</h3>
+                <div class="form-group">
+                    <label>RollNo</label>
+                    <input type="number" name="roll" id="roll"  min="1" class="form-control mb-3 mt-2" placeholder="Enter RollNumber" required>
+                    <div id="rollError" class="text-danger"></div>
+                </div>
+        
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="name" id="name" class="form-control mb-3 mt-2" placeholder="Enter Name" pattern="[A-Za-z]+" required  maxlength="15">
+                    <div id="nameError" class="text-danger"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Date Of Birth</label>
+                    <input type="date" name="dob" id="dob" min="1900-01-01" max="2010-12-23" class="form-control mb-3 mt-2" placeholder="Enter DateofBirth" required>
+                    <div id="dobError" class="text-danger"></div>
+                </div>
+
+                <div class="form-group">
+                    <label>Score</label>
+                    <input type="number" name="score" min="0" id="score"  class="form-control mb-3 mt-2" placeholder="Enter Score" required>
+                    <div id="scoreError" class="text-danger"></div>
+                </div>
+        
+                <div class="text-center">
+                    <button type="submit" onclick="validateFormAddrec()" class="btn btn-dark">Save</button>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;<button type="reset"  class="btn btn-dark">Clear</button></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

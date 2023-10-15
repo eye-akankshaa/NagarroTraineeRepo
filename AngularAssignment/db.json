@@ -1,0 +1,57 @@
+{
+  "teachers": [
+    {
+      "userId": "admin",
+      "password": "admin",
+      "id": 1
+    },
+    {
+      "userId": "admin1",
+      "password": "admin",
+      "id": 2
+    },
+    {
+      "userId": "admin2",
+      "password": "admin",
+      "id": 4
+    },
+    {
+      "userId": "admin5",
+      "password": "admin",
+      "id": 5
+    },
+    {
+      "userId": "akansha",
+      "password": "ak@123",
+      "id": 6
+    },
+    {
+      "userId": "shubhi1",
+      "password": "shubhi1",
+      "id": 7
+    }
+  ],
+  "students": [
+    {
+      "rollNo": 1,
+      "name": "Akansha Khandelwal",
+      "dob": "2023-05-24",
+      "score": 90,
+      "id": 1
+    },
+    {
+      "rollNo": 3,
+      "name": "shubhi khanna",
+      "dob": "1993-06-22",
+      "score": 80,
+      "id": 2
+    },
+    {
+      "rollNo": 7,
+      "name": "Isha",
+      "dob": "2017-06-23",
+      "score": 50,
+      "id": 3
+    }
+  ]
+}

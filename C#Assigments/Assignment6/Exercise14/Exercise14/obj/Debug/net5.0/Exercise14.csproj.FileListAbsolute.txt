@@ -1,0 +1,15 @@
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\bin\Debug\net5.0\Exercise14.exe
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\bin\Debug\net5.0\Exercise14.deps.json
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\bin\Debug\net5.0\Exercise14.runtimeconfig.json
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\bin\Debug\net5.0\Exercise14.runtimeconfig.dev.json
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\bin\Debug\net5.0\Exercise14.dll
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\bin\Debug\net5.0\ref\Exercise14.dll
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\bin\Debug\net5.0\Exercise14.pdb
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\obj\Debug\net5.0\Exercise14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\obj\Debug\net5.0\Exercise14.AssemblyInfoInputs.cache
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\obj\Debug\net5.0\Exercise14.AssemblyInfo.cs
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\obj\Debug\net5.0\Exercise14.csproj.CoreCompileInputs.cache
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\obj\Debug\net5.0\Exercise14.dll
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\obj\Debug\net5.0\ref\Exercise14.dll
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\obj\Debug\net5.0\Exercise14.pdb
+C:\Users\akanshakhandelwal\source\repos\Exercise14\Exercise14\obj\Debug\net5.0\Exercise14.genruntimeconfig.cache

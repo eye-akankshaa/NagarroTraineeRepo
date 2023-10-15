@@ -1,0 +1,10 @@
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Domain\bin\Debug\netcoreapp3.1\BookReadingEvent.BOL.deps.json
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Domain\bin\Debug\netcoreapp3.1\BookReadingEvent.BOL.dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Domain\bin\Debug\netcoreapp3.1\BookReadingEvent.BOL.pdb
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Domain\obj\Debug\netcoreapp3.1\BookReadingEvent.BOL.csproj.AssemblyReference.cache
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Domain\obj\Debug\netcoreapp3.1\BookReadingEvent.BOL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Domain\obj\Debug\netcoreapp3.1\BookReadingEvent.BOL.AssemblyInfoInputs.cache
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Domain\obj\Debug\netcoreapp3.1\BookReadingEvent.BOL.AssemblyInfo.cs
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Domain\obj\Debug\netcoreapp3.1\BookReadingEvent.BOL.csproj.CoreCompileInputs.cache
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Domain\obj\Debug\netcoreapp3.1\BookReadingEvent.BOL.dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Domain\obj\Debug\netcoreapp3.1\BookReadingEvent.BOL.pdb

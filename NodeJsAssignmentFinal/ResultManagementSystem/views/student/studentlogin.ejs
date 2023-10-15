@@ -1,0 +1,26 @@
+<a href="/index" class="btn btn-dark goBack" style="margin-top: 5px;float:right;">Go back!</a><br>
+
+<div class="container d-flex align-items-center justify-content-center mt-5">
+    <div class="card">
+        <div class="card-body px-5 py-4">
+            <h3 class="text-center">Check Result</h3>
+            <form method="POST" class="teachForm">
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Roll no : </label>
+                  <input type="number" name="roll" required class="form-control" min="1" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Name : </label>
+                  <input type="text" name="name" pattern="[a-zA-Z ]*$" required class="form-control" id="exampleInputPassword1">
+                </div>
+
+                <div><a><button type="submit" class="btn btn-dark">Submit</button></a>
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp;<button type="reset"  class="btn btn-dark">Clear</button></span>
+                </div>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</div>
+

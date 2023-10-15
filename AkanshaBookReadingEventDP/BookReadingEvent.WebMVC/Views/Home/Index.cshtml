@@ -1,0 +1,111 @@
+﻿@model IList<EventViewModel>
+
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<BookReadingEvent.Domain.Entities.ApplicationUser> _loginManager
+@inject UserManager<BookReadingEvent.Domain.Entities.ApplicationUser> _userManager
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+@{
+    var user = await _userManager.GetUserAsync(User);
+    var email = user != null ? user.Email : "";
+
+}
+
+<div class="card mt-4">
+    <div class="row">
+        <div class="col-12 col-sm-12">
+            <div class="card-header">
+                <h3 class="text-center">Events </h3>
+            </div>
+        </div>
+        @if (email == "myadmin@bookevents.com")
+        {
+            <div class="col-12 col-sm-6">
+                <h5 class="text-center p-3">Past Events</h5>
+                @foreach (var e in Model)
+                {
+                    @if (e.Date <= DateTime.UtcNow)
+                    {
+                        <div class="row">
+                            <div class="col-12 col-sm-12">
+                                <hr class="bg-dark" />
+                            </div>
+                            <div class="col-6 col-sm-8 ml-3 mt-1">
+                                <a class="text-decoration-none font-weight-bold" asp-action="EventDetails" asp-controller="BookReadingEvent" asp-route-id="@e.Id">@e.Title </a>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <a class="btn btn-outline-info" asp-action="EditEvent" asp-controller="BookReadingEvent" asp-route-id="@e.Id">Edit Event </a>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+            <div class="col-12 col-sm-6">
+                <h5 class="text-center p-3">Future Events</h5>
+                @foreach (var e in Model)
+                {
+                    @if (e.Date >= DateTime.UtcNow)
+                    {
+                        <div class="row">
+                            <div class="col-12 col-sm-12">
+                                <hr class="bg-dark" />
+                            </div>
+                            <div class="col-6 col-sm-8 ml-3 mt-1">
+                                <a class="text-decoration-none font-weight-bold" asp-action="EventDetails" asp-controller="BookReadingEvent" asp-route-id="@e.Id">@e.Title </a>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <a class="btn btn-outline-info" asp-action="EditEvent" asp-controller="BookReadingEvent" asp-route-id="@e.Id">Edit Event </a>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        }
+        else
+        {
+            <div class="col-12 col-sm-6">
+                <h5 class="text-center p-3">Past Events</h5>
+                @foreach (var e in Model)
+                {
+                    @if (e.Date <= DateTime.UtcNow && e.EventType != "Private")
+                    {
+                        <div class="row">
+                            <div class="col-12 col-sm-12">
+                                <hr class="bg-dark" />
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <ul class="list-group">
+                                    <li class="list-group-item text-capitalize text-center"><a class="text-decoration-none font-weight-bold" asp-action="EventDetails" asp-controller="BookReadingEvent" asp-route-id="@e.Id">@e.Title </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+            <div class="col-12 col-sm-6">
+                <h5 class="text-center p-3">Future Events</h5>
+                @foreach (var e in Model)
+                {
+                    @if (e.Date >= DateTime.UtcNow && e.EventType != "Private")
+                    {
+                        <div class="row">
+                            <div class="col-12 col-sm-12">
+                                <hr class="bg-dark" />
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <ul class="list-group">
+                                    <li class="list-group-item text-capitalize text-center"><a class="text-decoration-none font-weight-bold" asp-action="EventDetails" asp-controller="BookReadingEvent" asp-route-id="@e.Id">@e.Title </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        }
+    </div>
+</div>
+
+

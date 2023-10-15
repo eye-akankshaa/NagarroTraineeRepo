@@ -1,0 +1,7 @@
+2023-04-29T08:36:10.5085311+05:30  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2023-04-29T08:36:10.5516445+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-04-29T08:36:10.5641764+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-04-29T08:36:10.5734471+05:30  [INF] Content root path: "C:\Users\hariomroy\Desktop\HariomMD\Webgentle.BookStore\Webgentle.BookStore" (b5d60022)
+2023-04-29T08:36:19.5740385+05:30 0HMQ8BQNN83U5:00000001 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2023-04-29T08:36:19.9238302+05:30 0HMQ8BQNN83U5:00000001 [INF] The index page has been accessed (c066c13c)
+2023-04-29T08:38:26.3604797+05:30  [INF] Application is shutting down... (90f52c38)

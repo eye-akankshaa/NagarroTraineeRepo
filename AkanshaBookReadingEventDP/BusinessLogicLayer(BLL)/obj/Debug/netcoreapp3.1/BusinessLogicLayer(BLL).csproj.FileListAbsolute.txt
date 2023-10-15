@@ -1,0 +1,45 @@
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).csproj.AssemblyReference.cache
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).GeneratedMSBuildEditorConfig.editorconfig
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).AssemblyInfoInputs.cache
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).AssemblyInfo.cs
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).csproj.CoreCompileInputs.cache
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).deps.json
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).pdb
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.pdb
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.pdb
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).csproj.CopyComplete
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).pdb
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).deps.json
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).dll
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).pdb
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.dll
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.dll
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.pdb
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.pdb
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).csproj.AssemblyReference.cache
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).GeneratedMSBuildEditorConfig.editorconfig
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).AssemblyInfoInputs.cache
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).AssemblyInfo.cs
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).csproj.CoreCompileInputs.cache
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).csproj.CopyComplete
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).dll
+D:\BookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).pdb
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).deps.json
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).dll
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).pdb
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.dll
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.dll
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.pdb
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.pdb
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).csproj.AssemblyReference.cache
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).AssemblyInfoInputs.cache
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).AssemblyInfo.cs
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).csproj.CoreCompileInputs.cache
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).csproj.CopyComplete
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).dll
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BusinessLogicLayer(BLL)\obj\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).pdb

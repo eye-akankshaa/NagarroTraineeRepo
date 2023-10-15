@@ -1,0 +1,33 @@
+<a href="/index" class="btn btn-dark goBack" style="margin-top: 5px;float:right;">Go back!</a><br>
+
+<div class="container d-flex align-items-center justify-content-center mt-5">
+  <div class="card">
+    <div class="card-body px-5 py-4">
+      <h4>Login as teacher</h4>
+      <hr />
+      <form id="loginForm" method="POST">
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" name="email" required  pattern="[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)" id="email" />
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input
+            type="password"
+            required
+            class="form-control"
+            name="password"
+            id="password"
+          />
+        </div>
+
+        <button type="submit" class="btn btn-dark my-3">
+          <strong>Login</strong>
+        </button>
+        <span></span><a href="/teacher/teachersignup" class="mx-4" style="color: black;"
+        ><strong>New User?</strong></a></span>
+      </form>
+    
+    </div>
+  </div>
+</div>

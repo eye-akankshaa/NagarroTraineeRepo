@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = BookReadingEvent.BOL
+build_property.ProjectDir = D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Domain\

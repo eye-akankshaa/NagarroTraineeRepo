@@ -1,0 +1,240 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BusinessLogicLayer(BLL)\\BusinessLogicLayer(BLL).csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BookReadingEvent.Data\\BookReadingEvent.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BookReadingEvent.Data\\BookReadingEvent.Data.csproj",
+        "projectName": "BookReadingEvent.Data",
+        "projectPath": "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BookReadingEvent.Data\\BookReadingEvent.Data.csproj",
+        "packagesPath": "C:\\Users\\akanshakhandelwal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BookReadingEvent.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\akanshakhandelwal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BookReadingEvent.Domain\\BookReadingEvent.Domain.csproj": {
+                "projectPath": "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BookReadingEvent.Domain\\BookReadingEvent.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.23, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BookReadingEvent.Domain\\BookReadingEvent.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BookReadingEvent.Domain\\BookReadingEvent.Domain.csproj",
+        "projectName": "BookReadingEvent.Domain",
+        "projectPath": "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BookReadingEvent.Domain\\BookReadingEvent.Domain.csproj",
+        "packagesPath": "C:\\Users\\akanshakhandelwal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BookReadingEvent.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\akanshakhandelwal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BusinessLogicLayer(BLL)\\BusinessLogicLayer(BLL).csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BusinessLogicLayer(BLL)\\BusinessLogicLayer(BLL).csproj",
+        "projectName": "BusinessLogicLayer(BLL)",
+        "projectPath": "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BusinessLogicLayer(BLL)\\BusinessLogicLayer(BLL).csproj",
+        "packagesPath": "C:\\Users\\akanshakhandelwal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BusinessLogicLayer(BLL)\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\akanshakhandelwal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BookReadingEvent.Data\\BookReadingEvent.Data.csproj": {
+                "projectPath": "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BookReadingEvent.Data\\BookReadingEvent.Data.csproj"
+              },
+              "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BookReadingEvent.Domain\\BookReadingEvent.Domain.csproj": {
+                "projectPath": "C:\\Users\\akanshakhandelwal\\OneDrive - Nagarro\\Desktop\\akansha-khandelwal\\AkanshaBookReadingEventDP\\BookReadingEvent.Domain\\BookReadingEvent.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

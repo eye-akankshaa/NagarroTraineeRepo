@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>BusinessLogicLayer_BLL_</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookReadingEvent.Data\BookReadingEvent.Data.csproj" />
+    <ProjectReference Include="..\BookReadingEvent.Domain\BookReadingEvent.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,52 @@
+﻿@inject Microsoft.AspNetCore.Identity.SignInManager<BookReadingEvent.Domain.Entities.ApplicationUser> _loginManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EventsApplication</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white-50" asp-action="Index" asp-controller="Home">BookEvents</a>
+                <form class="d-flex">
+                    @if (_loginManager.IsSignedIn(User))
+                    {
+                        <a asp-controller="BookReadingEvent" asp-action="MyEvents" class="mr-3 btn btn-light">My Events</a>
+                        <a asp-controller="BookReadingEvent" asp-action="EventsInvitedTo" class="mr-3 btn btn-light">My Invites</a>
+                        <a asp-controller="BookReadingEvent" asp-action="CreateEvent" class="mr-3 btn btn-light">Create New Event</a>
+                        <a asp-controller="Account" asp-action="Logout" class="btn btn-light">Logout</a>
+                    }
+                    else
+                    {
+                        <a href="https://helpdesk.nagarro.com" class="mr-3 btn btn-light">Customer Support</a>
+                        <a asp-controller="Account" asp-action="Register" class="mr-3 btn btn-light">Signup</a>
+                        <a asp-controller="Account" asp-action="Login" class="btn btn-light">Login</a>
+                    }
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container text-center">
+            &copy; 2022 - EventsApplication - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

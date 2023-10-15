@@ -1,0 +1,48 @@
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.csproj.AssemblyReference.cache
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.AssemblyInfoInputs.cache
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.AssemblyInfo.cs
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.csproj.CoreCompileInputs.cache
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.deps.json
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.runtimeconfig.json
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.runtimeconfig.dev.json
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.pdb
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.pdb
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.csproj.CopyComplete
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.pdb
+D:\Tranining\MVC\Layered Project\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.genruntimeconfig.cache
+D:\BookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.deps.json
+D:\BookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.runtimeconfig.json
+D:\BookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.runtimeconfig.dev.json
+D:\BookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.dll
+D:\BookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.pdb
+D:\BookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.dll
+D:\BookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.pdb
+D:\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.csproj.AssemblyReference.cache
+D:\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.AssemblyInfoInputs.cache
+D:\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.AssemblyInfo.cs
+D:\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.csproj.CoreCompileInputs.cache
+D:\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.csproj.CopyComplete
+D:\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.dll
+D:\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.pdb
+D:\BookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.genruntimeconfig.cache
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.deps.json
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.runtimeconfig.json
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.runtimeconfig.dev.json
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.dll
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.pdb
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.dll
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.pdb
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.csproj.AssemblyReference.cache
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.AssemblyInfoInputs.cache
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.AssemblyInfo.cs
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.csproj.CoreCompileInputs.cache
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.csproj.CopyComplete
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.dll
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.pdb
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\BookReadingEvent.Data\obj\Debug\netcoreapp3.1\BookReadingEvent.Data.genruntimeconfig.cache

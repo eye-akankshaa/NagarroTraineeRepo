@@ -1,0 +1,81 @@
+﻿@model EventModel
+@{
+    ViewData["Title"] = "Add new Event";
+}
+<div class="container">
+    <h3 class="display-4">Add Event</h3>
+    @if (ViewBag.IsSuccess) { 
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Congratulations!</strong> Your event added succesfully.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    }
+<form method="post" asp-action="AddNewEvent" asp-controller="event">
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Date"></label>
+        <input asp-for="Date" class="form-control" />
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="eventType"></label>
+        <select asp-for="eventType" class="form-control">
+            <option selected>Public</option>
+            <option>Private</option>
+        </select>
+        <span asp-validation-for="eventType" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <label asp-for="Location"></label>
+        <input asp-for="Location" class="form-control" />
+        <span asp-validation-for="Location" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="startTime"></label>
+        <input asp-for="startTime" class="form-control" />
+        <span asp-validation-for="startTime" class="text-danger"></span>
+    </div>
+
+
+   
+    <div class="form-group">
+        <label asp-for="Duration"></label>
+        <input asp-for="Duration" class="form-control" />
+        <span asp-validation-for="Duration" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="OtherDetails"></label>
+        <textarea asp-for="OtherDetails" class="form-control"></textarea>
+        <span asp-validation-for="OtherDetails" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="invitedTo"></label>
+        <textarea asp-for="invitedTo" class="form-control"></textarea>
+        <span asp-validation-for="invitedTo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreatedBy"></label>
+        <textarea asp-for="CreatedBy" class="form-control"></textarea>
+        <span asp-validation-for="CreatedBy" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <input type="submit" value="Add Event" class="btn btn-primary" />
+    </div>
+</form>
+</div>

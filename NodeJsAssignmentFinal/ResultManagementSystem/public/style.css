@@ -1,0 +1,44 @@
+.login-home {
+  text-align: center;
+  margin-top: 150px;
+}
+
+#topBar {
+  background-color: #c6f0c2;
+  color: black;
+  font-weight: bold;
+  text-align: center !important;
+  font-size: 20px;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#footer {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border: 2px solid rgb(174, 237, 174);
+  color: black;
+  margin-top: 75px;
+  background-color: #c6f0c2;
+}
+
+h6 {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  color: black;
+  float:left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination a.active {
+  background-color:black;
+  color: white;
+}

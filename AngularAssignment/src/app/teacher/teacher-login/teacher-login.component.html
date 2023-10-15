@@ -1,0 +1,17 @@
+<div class="container-fluid col-md-4 p-5">
+    <h4>Login as teacher</h4>
+    <hr>
+    <form [formGroup]="loginForm" (ngSubmit)="logIn()">
+        <div class="mb-3">
+            <label for="userid" class="form-label ">Username</label>
+            <input type="text" class="form-control" formControlName="userid" id="userid">
+        </div>
+        <div class="mb-3">
+            <label for="pwd" class="form-label">Password</label>
+            <input type="password" class="form-control" formControlName="pwd" id="pwd">
+        </div>
+        <button type="submit" class="btn btn-primary my-3"><strong>Login</strong></button>
+
+        <a href="teacher/signup" class="mx-4"><strong> New User?</strong></a>
+    </form>
+</div>

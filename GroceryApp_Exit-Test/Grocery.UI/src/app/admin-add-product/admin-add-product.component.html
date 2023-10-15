@@ -1,0 +1,95 @@
+<h1> Add Product</h1>
+
+
+<form [formGroup]="productForm" (ngSubmit)="onSubmit()"  class="product-form" >
+  
+    
+
+    <div class="form-group">
+        <label for="productName">Product Name:</label>
+        <textarea id="productName" formControlName="productName" rows="1" cols="30"></textarea>
+        <div class="form-text text-danger" *ngIf="ProductName.errors?.['required'] && (ProductName.touched || ProductName.dirty)">
+            Product Name is required
+          </div> 
+          <div class="form-text text-danger" *ngIf="ProductName.errors?.['minlength'] && ProductName.errors?.['maxlength'] && (ProductName.touched || ProductName.dirty)">
+           Product name is minimum 2 character and maximum 100 character
+          </div>
+          <div class="form-text text-danger" *ngIf="ProductName.value && ProductName.value.length === 1 && !ProductName.errors?.['pattern'] && (ProductName.touched || ProductName.dirty)">
+            Product name must be a single character
+          </div>
+      </div> 
+
+    <div class="form-group">
+    <label for="description">Product Description:</label>
+    <textarea id="description" formControlName="description" rows="1" cols="30"></textarea>
+    <div class="form-text text-danger" *ngIf="Description.errors?.['required'] && (Description.touched || Description.dirty)">
+        Description is required
+      </div> 
+      <div class="form-text text-danger" *ngIf="Description.errors?.['minlength'] && Description.errors?.['maxlength'] && (Description.touched || Description.dirty)">
+        Product name is minimum 2 character and maximum 255 character
+       </div>
+  </div>
+
+  <div class="form-group">
+    <label for="category">Product Category:</label>
+    <textarea id="category" formControlName="category" rows="1" cols="30"></textarea>
+    <div class="form-text text-danger" *ngIf="Category.errors?.['required'] && (Category.touched || Category.dirty)">
+        Category is required
+      </div> 
+      <div class="form-text text-danger" *ngIf="Category.errors?.['minlength'] && Category.errors?.['maxlength'] && (Category.touched || Category.dirty)">
+        Category name is minimum 2 character and maximum 100 character
+       </div>
+  </div>
+
+  <div class="form-group">
+    <label for="quantity">Product Quantity:</label>
+    <input type="number" id="quantity" formControlName="quantity" step="0.01">
+    <div class="form-text text-danger" *ngIf="Quantity.errors?.['required'] && (Quantity.touched || Quantity.dirty)">
+        Quantity is required in number format
+      </div> 
+      
+  </div>
+
+  <div class="form-group">
+    <label for="price">Product Price:</label>
+    <input type="number" id="price" formControlName="price" step="0.01">
+    <div class="form-text text-danger" *ngIf="Price.errors?.['required'] && (Price.touched || Price.dirty)">
+        Price is required in number format
+      </div> 
+  </div>
+
+  <div class="form-group">
+    <label for="discount">Product Discount:</label>
+    <input type="number" id="discount" formControlName="discount" step="0.01">
+    <div class="form-text text-danger" *ngIf="Discount.errors?.['required'] && (Discount.touched || Discount.dirty)">
+        Discount is required in number format
+      </div> 
+  </div>
+
+  <div class="form-group">
+    <label for="specification">Product Specification:</label>
+    <textarea id="specification" formControlName="specification" rows="1" cols="30"></textarea>
+    <div class="form-text text-danger" *ngIf="Specification.errors?.['required'] && (Specification.touched || Specification.dirty)">
+        Product Specificationis required
+      </div> 
+      <div class="form-text text-danger" *ngIf="Specification.errors?.['minlength'] && Specification.errors?.['maxlength'] && (Specification.touched || Specification.dirty)">
+        Product Specification is minimum 2 character and maximum 100 character
+       </div>
+  </div>
+
+  <div class="form-group">
+    <input type="file" (change)="onFileSelected($event)" accept=".jpg,.jpeg,.png">
+    <div class="form-text text-danger" *ngIf="imageError!==''">
+      {{imageError}}
+    </div> 
+  </div> 
+    
+  <!-- " -->
+  <img *ngIf="source" [src]="source" src="">
+  <!-- <button type="submit" [disabled]="productForm.invalid" class="submit-button" >Add Product</button> -->
+
+  <button type="submit"  class="submit-button" >Add Product</button>
+
+</form>
+
+

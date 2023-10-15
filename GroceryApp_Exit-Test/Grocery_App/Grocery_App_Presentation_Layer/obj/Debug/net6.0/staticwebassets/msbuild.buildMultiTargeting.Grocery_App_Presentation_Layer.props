@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Grocery_App_Presentation_Layer.props" />
+</Project>

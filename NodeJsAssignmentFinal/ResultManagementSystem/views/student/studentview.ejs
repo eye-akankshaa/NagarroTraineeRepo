@@ -1,0 +1,27 @@
+<a href="/" class="btn btn-dark" style="margin-top: 5px; float:right;">Logout</a
+>
+<h4 style="text-align: center;">My Result</h4>
+<div class="container d-flex align-items-center justify-content-center mt-5">
+  <div class="card">
+    <div class="card-body px-5 py-4">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Roll no.</th>
+            <th scope="col">Name</th>
+            <th scope="col">Date of birth</th>
+            <th scope="col">Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><%= one.roll %></td>
+            <td><%= one.name %></td>
+            <td><%= one.dob.toLocaleDateString() %></td>
+            <td><%= one.score %></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

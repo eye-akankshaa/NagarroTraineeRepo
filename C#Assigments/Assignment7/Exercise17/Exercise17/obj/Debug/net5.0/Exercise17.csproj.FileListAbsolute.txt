@@ -1,0 +1,16 @@
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\bin\Debug\net5.0\Exercise17.exe
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\bin\Debug\net5.0\Exercise17.deps.json
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\bin\Debug\net5.0\Exercise17.runtimeconfig.json
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\bin\Debug\net5.0\Exercise17.runtimeconfig.dev.json
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\bin\Debug\net5.0\Exercise17.dll
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\bin\Debug\net5.0\ref\Exercise17.dll
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\bin\Debug\net5.0\Exercise17.pdb
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\obj\Debug\net5.0\Exercise17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\obj\Debug\net5.0\Exercise17.AssemblyInfoInputs.cache
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\obj\Debug\net5.0\Exercise17.AssemblyInfo.cs
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\obj\Debug\net5.0\Exercise17.csproj.CoreCompileInputs.cache
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\obj\Debug\net5.0\Exercise17.dll
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\obj\Debug\net5.0\ref\Exercise17.dll
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\obj\Debug\net5.0\Exercise17.pdb
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\obj\Debug\net5.0\Exercise17.genruntimeconfig.cache
+C:\Users\akanshakhandelwal\source\repos\Exercise17\Exercise17\obj\Debug\net5.0\Exercise17.csproj.AssemblyReference.cache

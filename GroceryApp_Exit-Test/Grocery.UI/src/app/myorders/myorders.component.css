@@ -1,0 +1,64 @@
+.detailsSpan {
+
+    font-size: 22px;
+
+    font-family:'Times New Roman', Times, serif
+
+}
+
+
+
+
+.card:hover {
+
+    transition: 0.3s;
+
+    box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+
+
+
+.text-right {
+
+    text-align: right !important;
+
+}
+
+
+
+
+.text-left {
+
+    text-align: left !important;
+
+}
+
+
+
+
+.pl {
+
+    padding-left: 5px;
+
+}
+
+
+
+
+
+
+.card {
+
+    border-radius: 40px;
+
+    transition: 0.3s;
+
+    box-shadow: 20px 20px 20px 5px rgba(0, 0, 0, 0.09);
+
+    width: 60%;
+
+    min-width: 400px;
+
+}

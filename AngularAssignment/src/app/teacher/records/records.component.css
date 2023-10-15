@@ -1,0 +1,11 @@
+.header2{
+    text-align: end;
+    background-color:  rgba(44, 222, 28, 0.384);
+}
+table,th,td{
+    border: 1px solid black;
+    width: min-content;
+}
+.main-body{
+    padding:2%;
+}

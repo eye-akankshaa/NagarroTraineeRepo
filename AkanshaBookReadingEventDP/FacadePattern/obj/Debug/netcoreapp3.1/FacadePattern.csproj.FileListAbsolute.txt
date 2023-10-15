@@ -1,0 +1,51 @@
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.csproj.AssemblyReference.cache
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.AssemblyInfoInputs.cache
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.AssemblyInfo.cs
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.csproj.CoreCompileInputs.cache
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.deps.json
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.pdb
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).pdb
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.pdb
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.pdb
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.csproj.CopyComplete
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.pdb
+D:\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.deps.json
+D:\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.dll
+D:\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.pdb
+D:\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.dll
+D:\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.dll
+D:\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).dll
+D:\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).pdb
+D:\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.pdb
+D:\BookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.pdb
+D:\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.csproj.AssemblyReference.cache
+D:\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.AssemblyInfoInputs.cache
+D:\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.AssemblyInfo.cs
+D:\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.csproj.CoreCompileInputs.cache
+D:\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.csproj.CopyComplete
+D:\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.dll
+D:\BookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.pdb
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.deps.json
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.dll
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.pdb
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.dll
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.dll
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).dll
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BusinessLogicLayer(BLL).pdb
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BookReadingEvent.Data.pdb
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\bin\Debug\netcoreapp3.1\BookReadingEvent.Domain.pdb
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.csproj.AssemblyReference.cache
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.AssemblyInfoInputs.cache
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.AssemblyInfo.cs
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.csproj.CoreCompileInputs.cache
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.csproj.CopyComplete
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.dll
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.pdb

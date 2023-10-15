@@ -1,0 +1,48 @@
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test\Grocery_App\Grocery_App_Shared_Library\bin\Debug\net6.0\Grocery_App_Shared_Library.deps.json
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test\Grocery_App\Grocery_App_Shared_Library\bin\Debug\net6.0\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test\Grocery_App\Grocery_App_Shared_Library\bin\Debug\net6.0\Grocery_App_Shared_Library.pdb
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.csproj.AssemblyReference.cache
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.AssemblyInfoInputs.cache
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.AssemblyInfo.cs
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.csproj.CoreCompileInputs.cache
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\refint\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.pdb
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\ref\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final\Grocery_App\Grocery_App_Shared_Library\bin\Debug\net6.0\Grocery_App_Shared_Library.deps.json
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final\Grocery_App\Grocery_App_Shared_Library\bin\Debug\net6.0\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final\Grocery_App\Grocery_App_Shared_Library\bin\Debug\net6.0\Grocery_App_Shared_Library.pdb
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.csproj.AssemblyReference.cache
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.AssemblyInfoInputs.cache
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.AssemblyInfo.cs
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.csproj.CoreCompileInputs.cache
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\refint\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.pdb
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\ref\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Copy (2)\Grocery_App\Grocery_App_Shared_Library\bin\Debug\net6.0\Grocery_App_Shared_Library.deps.json
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Copy (2)\Grocery_App\Grocery_App_Shared_Library\bin\Debug\net6.0\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Copy (2)\Grocery_App\Grocery_App_Shared_Library\bin\Debug\net6.0\Grocery_App_Shared_Library.pdb
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Copy (2)\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.csproj.AssemblyReference.cache
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Copy (2)\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Copy (2)\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.AssemblyInfoInputs.cache
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Copy (2)\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.AssemblyInfo.cs
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Copy (2)\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.csproj.CoreCompileInputs.cache
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Copy (2)\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Copy (2)\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\refint\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Copy (2)\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.pdb
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Copy (2)\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\ref\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Complete\Grocery_App\Grocery_App_Shared_Library\bin\Debug\net6.0\Grocery_App_Shared_Library.deps.json
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Complete\Grocery_App\Grocery_App_Shared_Library\bin\Debug\net6.0\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Complete\Grocery_App\Grocery_App_Shared_Library\bin\Debug\net6.0\Grocery_App_Shared_Library.pdb
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Complete\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.csproj.AssemblyReference.cache
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Complete\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Complete\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.AssemblyInfoInputs.cache
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Complete\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.AssemblyInfo.cs
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Complete\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.csproj.CoreCompileInputs.cache
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Complete\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Complete\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\refint\Grocery_App_Shared_Library.dll
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Complete\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\Grocery_App_Shared_Library.pdb
+C:\Users\akanshakhandelwal\Desktop\GroceryApp_Exit-Test-Final - Complete\Grocery_App\Grocery_App_Shared_Library\obj\Debug\net6.0\ref\Grocery_App_Shared_Library.dll

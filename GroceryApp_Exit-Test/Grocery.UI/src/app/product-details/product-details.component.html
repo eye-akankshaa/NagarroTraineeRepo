@@ -1,0 +1,97 @@
+
+
+<div class="container  d-flex align-items-center justify-content-center">
+
+  <div class="card">
+
+    <div class="card-body">
+
+   <!-- Image -->
+
+      <div class="row">
+
+        <div class="col-md-12">
+
+          <img src={{chosenProduct.data}} alt="" class="imageSize alignCenter">
+
+        </div>
+
+      </div>
+       
+
+      <!-- Product name, +/- buttons, add to cart -->
+
+      <div class="row mt-2">
+
+        <div class="col-md-6">
+
+          <h2 class="product-name">{{chosenProduct.productName}}</h2>
+
+        </div>
+
+        <div class="col-md-6">
+
+          <div class="quantity-control justify-content-end">
+
+            <button class="btn btn-secondary" type="submit" (click)="decreaseQuantity()">-</button>
+
+            <span class="quantity">&nbsp;{{defaultQuantity}}&nbsp;</span>
+
+            <button class="btn btn-secondary" type="submit" (click)="increaseQuantity()">+</button>
+
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+            <button type="submit" class="btn btn-primary" (click)="addToCart()">Add to cart
+
+              <span class="fa fa-cart-plus"></span>
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Discounted Price -->
+
+      <div class="row mb-5">
+
+        <span class="discounted-price">₹ {{discountedPrice | number:'1.1-4'}}</span>
+
+        <span>FLAT {{chosenProduct.discount}}% off!</span>
+
+      </div>
+
+      <!-- Actual Price -->
+
+      <div class="row mb-3">
+
+        <span class="actual-price text-center">₹ {{chosenProduct.price}}</span>
+
+      </div>
+
+      <div class="row mb-3">
+
+        <div>
+      <label for="review" class="form-label">Add Review</label>&nbsp;&nbsp;
+      <input type="text" placeholder="plss add your review here" id ="input-box" class="form-control"  name ="review"  id="review" aria-describedby="review">
+    </div>
+        &nbsp;&nbsp; &nbsp;
+      <div>
+      <button type="submit" class="btn btn-sm btn-primary " (click)="addReview()">Add Review
+      <span class="fa fa-cart-plus"></span>
+      </button>
+     </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+  
+
+
+</div>

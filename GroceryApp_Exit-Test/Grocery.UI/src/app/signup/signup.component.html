@@ -1,0 +1,269 @@
+<!-- <p class="text-center fs-3" [ngClass]="isAccountCreated ? 'text-success pb-1':'text-danger pb-1'">
+  {{displayMsg}}
+</p>
+<div class="container-fluid col-md-4 p-5 sform">
+    <h4>Register</h4>
+    <hr>
+    
+    <form [formGroup]="registerForm" (ngSubmit)="registerSubmitted()">
+        <div class="my-3">
+          <label for="fullName" class="form-control">Name</label> 
+          <input type="text" class="form-control" formControlName="fullName" id="funllName" required>
+          <div class="form-text text-danger" *ngIf="FullName.errors?.['required'] && (FullName.touched || FullName.dirty)">
+            Name is required
+          </div> 
+          <div class="form-text text-danger" *ngIf="FullName.errors?.['minlength'] && (FullName.touched || FullName.dirty)">
+            First name is too short
+          </div>
+          <div class="form-text text-danger" *ngIf="FullName.errors?.['pattern'] && (FullName.touched || FullName.dirty)">
+            First name should start with Alphabet
+          </div>
+        </div>
+        <div class="my-3">
+            <label for="userId" class="form-label ">Email</label>
+            <input type="text" class="form-control" formControlName="userId" id="userId" required>
+
+            <div class="form-text text-danger" *ngIf="UserId.errors?.['required'] && (UserId.touched || UserId.dirty)">
+                Email is required
+              </div>
+              
+              <div class="form-text text-danger" *ngIf="UserId.errors?.['email'] && (UserId.touched || UserId.dirty)">
+                Email is Invalid
+              </div> 
+        </div>
+        <div class="my-3">
+            <label for="phone" class="form-label ">Phone Number</label>
+            <input type="number" class="form-control" formControlName="phone" id="phone" required>
+
+            <div class="form-text text-danger" *ngIf="Phone.errors?.['required'] && (Phone.touched || Phone.dirty)">
+                Phone Number is required
+              </div>
+            
+              <div class="form-text text-danger" *ngIf="Phone.errors?.['pattern']">
+                Phone Number is Invalid
+              </div> 
+
+              <div class="form-text text-danger" *ngIf="Phone.errors?.['minlength'] && (Phone.touched || Phone.dirty)">
+                Phone number is too short
+              </div> 
+              <div class="form-text text-danger" *ngIf="Phone.errors?.['maxlength'] && (Phone.touched || Phone.dirty)">
+                Phone number is too Long
+              </div> 
+        </div>
+        <div class="my-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control"formControlName="password" id="password" required>
+
+            <div class="form-text text-danger" *ngIf="Password.errors?.['required'] && (Password.touched || Password.dirty)">
+                Password is required
+              </div>
+              <div class="form-text text-danger" *ngIf="Password.errors?.['minlength'] || Password.errors?.['maxlength'] && (Password.touched || Password.dirty)">
+                Password is should be atleast 6 and at the max 1 character long
+              </div>
+        </div>
+        <div class="my-3">
+            <label for="rpwd" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control"formControlName="rpwd" id="rpwd" required>
+         
+            <div class="form-text text-danger" [ngStyle]="{'display':repeatPass}">
+              Password not matched
+            </div>
+
+        </div>
+        <button type="submit" [disabled]="registerForm.invalid" class="btn btn-primary my-3" ><strong>Signup</strong></button>
+        <span><a href="/login" class="mx-4"><strong>Intrested in Selling?</strong></a></span>
+    </form>
+    
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="text-center fs-3" [ngClass]="isAccountCreated ? 'text-success pb-1':'text-danger pb-1'">
+
+  {{displayMsg}}
+
+</p>
+
+<div class="container-fluid col-md-4 p-5 sform">
+
+    <h4>Register</h4>
+
+    <hr>
+
+    <!-- [formGroup]="signupForm" (ngSubmit)="signUp()" ngNativeValidate -->
+
+    <form [formGroup]="registerForm" (ngSubmit)="registerSubmitted()">
+
+        <div class="my-3">
+
+
+
+
+          <input type="text" class="form-control" formControlName="fullName" id="funllName" placeholder="Enter your Name" required>
+
+          <div class="form-text text-danger" *ngIf="FullName.errors?.['required'] && (FullName.touched || FullName.dirty)">
+
+            Name is required
+
+          </div>
+
+          <div class="form-text text-danger" *ngIf="FullName.errors?.['minlength'] && (FullName.touched || FullName.dirty)">
+
+            First name is too short
+
+          </div>
+
+          <div class="form-text text-danger" *ngIf="FullName.errors?.['pattern'] && (FullName.touched || FullName.dirty)">
+
+            First name should start with Alphabet
+
+          </div>
+
+        </div>
+
+        <div class="my-3">
+
+
+
+
+            <input type="text" class="form-control" formControlName="userId" id="userId" placeholder="Enter your email address" required>
+
+
+
+
+            <div class="form-text text-danger" *ngIf="UserId.errors?.['required'] && (UserId.touched || UserId.dirty)">
+
+                Email is required
+
+              </div>
+
+             
+
+              <div class="form-text text-danger" *ngIf="UserId.errors?.['email'] && (UserId.touched || UserId.dirty)">
+
+                Email is Invalid
+
+              </div>
+
+        </div>
+
+        <div class="my-3">
+
+
+
+
+            <input type="number" class="form-control" formControlName="phone" id="phone" placeholder="Enter your mobile number" required>
+
+
+
+
+            <div class="form-text text-danger" *ngIf="Phone.errors?.['required'] && (Phone.touched || Phone.dirty)">
+
+                Phone Number is required
+
+              </div>
+
+           
+
+              <div class="form-text text-danger" *ngIf="Phone.errors?.['pattern']">
+
+                Phone Number is Invalid
+
+              </div>
+
+
+
+
+              <div class="form-text text-danger" *ngIf="Phone.errors?.['minlength'] && (Phone.touched || Phone.dirty)">
+
+                Phone number is too short
+
+              </div>
+
+              <div class="form-text text-danger" *ngIf="Phone.errors?.['maxlength'] && (Phone.touched || Phone.dirty)">
+
+                Phone number is too Long
+
+              </div>
+
+        </div>
+
+        <div class="my-3">
+
+
+
+
+            <input type="password" class="form-control"formControlName="password" id="password" placeholder="Password" required>
+
+
+
+
+            <div class="form-text text-danger" *ngIf="Password.errors?.['required'] && (Password.touched || Password.dirty)">
+
+                Password is required
+
+              </div>
+
+              <div class="form-text text-danger" *ngIf="Password.errors?.['minlength'] || Password.errors?.['maxlength'] && (Password.touched || Password.dirty)">
+
+                Password is should be atleast 6 and at the max 1 character long
+
+              </div>
+
+        </div>
+
+        <div class="my-3">
+
+            <input type="password" class="form-control"formControlName="rpwd" id="rpwd" placeholder="Confirm password" required>
+
+         
+
+            <div class="form-text text-danger" [ngStyle]="{'display':repeatPass}">
+
+              Password not matched
+
+            </div>
+
+
+
+
+        </div>
+
+        <button type="submit" [disabled]="registerForm.invalid" class="btn btn-primary my-3" ><strong>Signup</strong></button>
+
+        <span><a href="/login" class="mx-4"><strong>Intrested in Selling?</strong></a></span>
+
+    </form>
+
+   
+
+</div>
+
+
+

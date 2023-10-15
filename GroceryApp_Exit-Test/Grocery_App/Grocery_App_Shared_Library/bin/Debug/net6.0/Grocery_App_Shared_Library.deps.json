@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Grocery_App_Shared_Library/1.0.0": {
+        "runtime": {
+          "Grocery_App_Shared_Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Grocery_App_Shared_Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

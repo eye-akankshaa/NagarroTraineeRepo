@@ -1,0 +1,62 @@
+div > h4{
+
+    text-align: center;
+
+}
+
+
+
+
+div > hr{
+
+
+
+
+    height: 3px;
+
+}
+
+input{
+
+    margin-top: 20px;
+
+}
+
+
+
+
+button[type="submit"]{
+
+
+
+
+    background-color: white;
+
+    color: rgb(52, 49, 49);
+
+    border: 1px solid rgb(52, 49, 49);
+
+}
+
+
+
+
+button[type="submit"]:hover{
+
+    background-color: rgb(52, 49, 49);
+
+    color: white;
+
+    border: 1px solid rgb(52, 49, 49);
+
+}
+
+
+
+
+
+a{
+
+    color: rgb(52, 49, 49);
+
+}

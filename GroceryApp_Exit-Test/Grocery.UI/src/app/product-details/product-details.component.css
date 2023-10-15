@@ -1,0 +1,211 @@
+.imageSize {
+
+    height: 300px;
+
+    width: 300px;
+
+    margin: auto;
+
+}
+
+
+
+
+.card {
+
+    width: 50%;
+
+    border-radius: 50px;
+
+}
+
+
+
+
+.alignCenter {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+
+
+.product-image img {
+
+    width: 300px;
+
+    height: 300px;
+
+}
+
+
+
+
+.product-details {
+
+    margin-left: 20px;
+
+}
+
+
+
+
+.product-name {
+
+    font-size: 24px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.product-price {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.actual-price {
+
+    text-decoration: line-through;
+
+    color: #ee6f0d;
+
+    margin-right: 10px;
+
+    font-size: 25px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+
+
+
+.discounted-price {
+
+    font-weight: bold;
+
+    font-size: 40px;
+
+    color: #000;
+
+}
+
+
+
+
+.quantity-control {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+
+.quantity-button {
+
+    height: 40px;
+
+    min-width: 40px;
+
+    width: 40px;
+
+    border-radius: 50%;
+
+    background-color: #ccc;
+
+    color: #000;
+
+    border: none;
+
+    cursor: pointer;
+
+    margin: 0 5px;
+
+    font-size: 20px;
+
+}
+
+
+
+
+.btn-primary {
+
+    height: 40px;
+
+    min-width: 40px;
+
+    border-radius: 100px;
+
+}
+
+
+
+
+.btn-secondary {
+
+    height: 40px;
+
+    min-width: 40px;
+
+    width: 40px;
+
+    border-radius: 50%;
+
+    background-color: #ccc;
+
+    color: #000;
+
+    border: none;
+
+    cursor: pointer;
+
+    margin: 0 5px;
+
+    font-size: 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+
+.btn-secondary:hover {
+
+    background-color: #838383;
+
+    color: white;
+
+}
+
+
+
+
+.quantity {
+
+    font-size: 18px;
+
+}
+
+#input-box{
+    width: 50px;
+}

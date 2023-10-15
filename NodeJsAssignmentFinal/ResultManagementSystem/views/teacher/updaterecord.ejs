@@ -1,0 +1,34 @@
+<a href="/teacher/allrecords" class="btn  btn-dark" style="margin-top: 5px;margin-left:5px; float:right;"
+  >Back</a>
+  <span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/teacher/logout" style="margin-top:5px;float:right;"class="btn btn btn-dark px-3">logout</a>
+  </span>
+
+<div class="container d-flex align-items-center justify-content-center mt-5">
+  <div class="card">
+    <div class="card-body px-5 py-4">
+
+<form method="POST" class="addStu" autocomplete="off" onsubmit="return validateForm();">
+  <h2 class="edit-f">Edit Form</h2>
+  <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Name: </label>
+      <input type="text" name="name" required class="form-control mb-2"  value="<%= user.name %>" id="name">
+     
+  </div>
+  <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Roll No: </label>
+      <input type="number" name="roll" value="<%= user.roll %>" min="1" required class="form-control mb-2" id="roll">
+  </div>
+  <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Date of Birth: </label>
+      <input type="date" name="dob" value="<%= user.dob.toISOString().split('T')[0] %>" min="1900-01-01" max="2010-12-23"required class="form-control mb-2" id="dob">
+  </div>
+  <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Score: </label>
+      <input type="text" name="score"  value="<%= user.score %>" min="0" max="100" required class="form-control mb-2" id="score">
+  
+  </div>
+  <button type="submit" onclick="validateFormeditRec()" class="btn btn-dark">Update</button>
+</form>
+</div>
+</div>
+</div>

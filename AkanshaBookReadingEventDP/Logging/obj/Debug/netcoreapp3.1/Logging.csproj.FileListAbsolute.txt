@@ -1,0 +1,29 @@
+D:\Tranining\MVC\Layered Project\BookReadingEvent\Logging\bin\Debug\netcoreapp3.1\Logging.deps.json
+D:\Tranining\MVC\Layered Project\BookReadingEvent\Logging\bin\Debug\netcoreapp3.1\Logging.dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\Logging\bin\Debug\netcoreapp3.1\Logging.pdb
+D:\Tranining\MVC\Layered Project\BookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tranining\MVC\Layered Project\BookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.AssemblyInfoInputs.cache
+D:\Tranining\MVC\Layered Project\BookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.AssemblyInfo.cs
+D:\Tranining\MVC\Layered Project\BookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.csproj.CoreCompileInputs.cache
+D:\Tranining\MVC\Layered Project\BookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.dll
+D:\Tranining\MVC\Layered Project\BookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.pdb
+D:\BookReadingEvent\Logging\bin\Debug\netcoreapp3.1\Logging.deps.json
+D:\BookReadingEvent\Logging\bin\Debug\netcoreapp3.1\Logging.dll
+D:\BookReadingEvent\Logging\bin\Debug\netcoreapp3.1\Logging.pdb
+D:\BookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.csproj.AssemblyReference.cache
+D:\BookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.GeneratedMSBuildEditorConfig.editorconfig
+D:\BookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.AssemblyInfoInputs.cache
+D:\BookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.AssemblyInfo.cs
+D:\BookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.csproj.CoreCompileInputs.cache
+D:\BookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.dll
+D:\BookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.pdb
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\Logging\bin\Debug\netcoreapp3.1\Logging.deps.json
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\Logging\bin\Debug\netcoreapp3.1\Logging.dll
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\Logging\bin\Debug\netcoreapp3.1\Logging.pdb
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.csproj.AssemblyReference.cache
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.AssemblyInfoInputs.cache
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.AssemblyInfo.cs
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.csproj.CoreCompileInputs.cache
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.dll
+C:\Users\akanshakhandelwal\Desktop\AkanshaBookReadingEvent\Logging\obj\Debug\netcoreapp3.1\Logging.pdb

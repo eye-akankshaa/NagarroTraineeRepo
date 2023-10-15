@@ -1,0 +1,16 @@
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\bin\Debug\net5.0\DSA_Assignment.exe
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\bin\Debug\net5.0\DSA_Assignment.deps.json
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\bin\Debug\net5.0\DSA_Assignment.runtimeconfig.json
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\bin\Debug\net5.0\DSA_Assignment.runtimeconfig.dev.json
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\bin\Debug\net5.0\DSA_Assignment.dll
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\bin\Debug\net5.0\ref\DSA_Assignment.dll
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\bin\Debug\net5.0\DSA_Assignment.pdb
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\obj\Debug\net5.0\DSA_Assignment.csproj.AssemblyReference.cache
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\obj\Debug\net5.0\DSA_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\obj\Debug\net5.0\DSA_Assignment.AssemblyInfoInputs.cache
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\obj\Debug\net5.0\DSA_Assignment.AssemblyInfo.cs
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\obj\Debug\net5.0\DSA_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\obj\Debug\net5.0\DSA_Assignment.dll
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\obj\Debug\net5.0\ref\DSA_Assignment.dll
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\obj\Debug\net5.0\DSA_Assignment.pdb
+C:\Users\akanshakhandelwal\source\repos\DSA_Assignment\DSA_Assignment\obj\Debug\net5.0\DSA_Assignment.genruntimeconfig.cache

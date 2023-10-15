@@ -1,0 +1,71 @@
+﻿@model EventViewModel
+@{
+    ViewData["Title"] = "EventDetails";
+}
+
+<div class="card mt-4 LoginCard">
+    <div class="row">
+        <div class="col-12 col-sm-12">
+            <div class="card-header">
+                <h2 class="text-center">EventDetails</h2>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12 col-sm-12 mt-4">
+                        <label class="font-weight-bold">Title :- </label>
+                        <label class="disabled">@Model.Title</label>
+                    </div>
+                    <div class="col-12 col-sm-12 mt-4">
+                        <label class="font-weight-bold">Date :- </label>
+                        <label class="disabled">@Model.Date</label>
+                    </div>
+                    <div class="col-12 col-sm-12 mt-4">
+                        <label class="font-weight-bold">Location :- </label>
+                        <label class="disabled">@Model.Location</label>
+                    </div>
+                    <div class="col-12 col-sm-12 mt-4">
+                        <label class="font-weight-bold">Start Time :- </label>
+                        <label class="disabled">@Model.StartTime</label>
+                    </div>
+                    <div class="col-12 col-sm-12 mt-4">
+                        <label class="font-weight-bold">Type :- </label>
+                        <label class="disabled">@Model.EventType</label>
+                    </div>
+                    <div class="col-12 col-sm-12 mt-4">
+                        <label class="font-weight-bold">Hours :- </label>
+                        <label class="disabled">@Model.Duration</label>
+                    </div>
+                    <div class="col-12 col-sm-12 mt-4">
+                        <label class="font-weight-bold">Description :- </label>
+                        <label class="disabled">@Model.Description</label>
+                    </div>
+                    <div class="col-12 col-sm-12 mt-4">
+                        <label class="font-weight-bold">Other Details :- </label>
+                        <label class="disabled">@Model.OtherDetails</label>
+                    </div>
+                    <div class="col-12 col-sm-12 mt-4">
+                        <label class="font-weight-bold">Invites :- </label>
+                        <label class="disabled">@Model.Invitees</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6">
+            <div class="coment-bottom bg-white p-2 px-4">
+                @using (Html.BeginForm("PostComment", "Comment", new { EventId = Model.Id }))
+                {<div class="d-flex flex-row add-comment-section mt-4 mb-4">
+                        <img class="img-fluid img-responsive rounded-circle mr-2" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/User_font_awesome.svg" width="38">
+                        <input type="text" class="form-control mr-3" name="comment" id="comment" placeholder="Add comment">
+                        <button class="btn btn-primary" type="submit" value="Post" id="submitComment">Comment</button>
+                    </div>} @if (@Model.Comments != null)
+                {@foreach (var com in Model.Comments)
+                    {<div class="comment mt-4 text-justify float-left col-12">
+                            <h4> Anonymous </h4> <span>@com.TimeStamp</span> <p>@com.Comment</p>
+                        </div>}
+            }
+                </div>
+            </div>
+        </div>
+    </div>

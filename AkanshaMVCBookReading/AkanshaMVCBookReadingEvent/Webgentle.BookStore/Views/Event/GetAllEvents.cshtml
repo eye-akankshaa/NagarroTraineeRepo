@@ -1,0 +1,263 @@
+﻿@*@{
+        ViewData["Title"] = "Public events";
+    }
+    @model IEnumerable<BookModel>
+
+
+    <div class="row">
+
+        <div class="col-6">
+            <div class="container">
+                <h3 class="display-4">UpComing Events</h3>
+                <div class="row">
+
+                    @foreach (var bookevent in Model)
+                    {
+                        if (bookevent.eventType == "Public" || bookevent.eventType == "Private" && bookevent.Date > DateTime.Now)
+                        {
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+
+                                    <img src="~/images/book/book1.jpg" />
+
+                                    <div class="card-body">
+                                        <h3 class="card-title">@bookevent.Title</h3>
+                                        <p class="card-text">Description: @bookevent.Description</p>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a asp-route="bookDetailsRoute" asp-route-id="@bookevent.Id"
+                                                   class="btn btn-sm btn-outline-secondary">View details</a>
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <a asp-route="bookUpdateRoute" asp-route-id="@bookevent.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="container">
+                <h3 class="display-4">Past Events</h3>
+                <div class="row">
+
+                    @foreach (var bookevent in Model)
+                    {
+                        if (bookevent.eventType == "Public" || bookevent.eventType == "Private" && bookevent.Date < DateTime.Now)
+                        {
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+
+                                    <img src="~/images/book/book1.jpg" />
+
+                                    <div class="card-body">
+                                        <h3 class="card-title">@bookevent.Title</h3>
+                                        <p class="card-text">Description: @bookevent.Description</p>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a asp-route="bookDetailsRoute" asp-route-id="@bookevent.Id"
+                                                   class="btn btn-sm btn-outline-secondary">View details</a>
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <a asp-route="bookUpdateRoute" asp-route-id="@bookevent.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+*@
+
+
+@{
+    ViewData["Title"] = "Public events";
+}
+@model IEnumerable<EventModel>
+
+
+<div class="row">
+    <div class="col-6">
+
+        <div class="container">
+            <h3 class="display-4">Upcoming Events</h3>
+            <div class="row">
+
+                @foreach (var bookevent in Model)
+                {
+                    var Email = @Accessor.HttpContext.Session.GetString("Email");
+                    //if (bookevent.eventType == "Public" && bookevent.Date > DateTime.Now)
+                    if (Email == "myadmin@bookevents.com")
+                    {
+                        if (bookevent.Date > DateTime.Now)
+                        {
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+
+                                    <img src="~/images/book/book1.jpg" />
+
+                                    <div class="card-body">
+                                        <h3 class="card-title">@bookevent.Title</h3>
+                                        <p class="card-text">Description: @bookevent.Description</p>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a asp-route="bookDetailsRoute" asp-route-id="@bookevent.Id"
+                                                   class="btn btn-sm btn-outline-secondary">View details</a>
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <a asp-route="bookUpdateRoute" asp-route-id="@bookevent.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        if (bookevent.Date > DateTime.Now && bookevent.CreatedBy == Email)
+                        //if (bookevent.eventType == "Public" || bookevent.eventType == "Private" && bookevent.CreatedBy=="vaibhav@gmail.com" && bookevent.Date > DateTime.Now)
+
+                        {
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+
+                                    <img src="~/images/book/book1.jpg" />
+
+                                    <div class="card-body">
+                                        <h3 class="card-title">@bookevent.Title</h3>
+                                        <p class="card-text">Description: @bookevent.Description</p>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a asp-route="bookDetailsRoute" asp-route-id="@bookevent.Id"
+                                                   class="btn btn-sm btn-outline-secondary">View details</a>
+                                            </div>
+
+                                            <div class="btn-group">
+                                                <a asp-route="bookUpdateRoute" asp-route-id="@bookevent.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                }
+
+
+            </div>
+        </div>
+        @using Microsoft.AspNetCore.Http
+        @inject IHttpContextAccessor Accessor
+
+    </div>
+    <div class="col-6">
+        <div class="container">
+            <h3 class="display-4">Past Events</h3>
+            <div class="row">
+
+                @foreach (var bookevent in Model)
+                {
+                    var Email = @Accessor.HttpContext.Session.GetString("Email");
+                    if (Email == "myadmin@bookevents.com")
+                    {
+                        if (bookevent.Date < DateTime.Now)
+                        {
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+
+                                    <img src="~/images/book/book1.jpg" />
+
+                                    <div class="card-body">
+                                        <h3 class="card-title">@bookevent.Title</h3>
+                                        <p class="card-text">Description: @bookevent.Description</p>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a asp-route="bookDetailsRoute" asp-route-id="@bookevent.Id"
+                                                   class="btn btn-sm btn-outline-secondary">View details</a>
+                                            </div>
+                                            <div class="btn-group">
+                                                <a asp-route="bookUpdateRoute" asp-route-id="@bookevent.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        if (bookevent.Date < DateTime.Now && bookevent.CreatedBy == Email)
+                        //if (bookevent.eventType == "Public"|| bookevent.eventType == "Private" && bookevent.CreatedBy=="vaibhav@gmail.com"&& bookevent.Date < DateTime.Now)
+
+                        {
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+
+                                    <img src="~/images/book/book1.jpg" />
+
+                                    <div class="card-body">
+                                        <h3 class="card-title">@bookevent.Title</h3>
+                                        <p class="card-text">Description: @bookevent.Description</p>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a asp-route="bookDetailsRoute" asp-route-id="@bookevent.Id"
+                                                   class="btn btn-sm btn-outline-secondary">View details</a>
+                                            </div>
+                                            <div class="btn-group">
+                                                <a asp-route="bookUpdateRoute" asp-route-id="@bookevent.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                }
+
+
+            </div>
+        </div>
+    </div>
+</div>
+

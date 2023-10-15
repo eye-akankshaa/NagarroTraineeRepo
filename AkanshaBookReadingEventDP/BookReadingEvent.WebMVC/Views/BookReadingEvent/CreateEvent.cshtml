@@ -1,0 +1,84 @@
+﻿@model EventViewModel
+@{
+    ViewData["Title"] = "CreateEvent";
+}
+
+<div class="card mt-4 LoginCard">
+    
+    <div class="row">
+        <div class="col-12 col-sm-12">
+            <div class="card-header">
+                <h2 class="text-center">Create New Event</h2>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12">
+            <div class="card-body">
+                <form asp-action="CreateEvent">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 mt-4">
+                            <label asp-for="Title">Event Title</label>
+                            <input asp-for="Title" class="form-control">
+                        </div>
+                        <div class="col-12 col-sm-12 mt-4">
+                            <label asp-for="Date">Event Date</label>
+                            <input asp-for="Date" class="form-control">
+                        </div>
+                        <div class="col-12 col-sm-12 mt-4">
+                            <label asp-for="Location">Event Location</label>
+                            <input asp-for="Location" class="form-control">
+                        </div>
+                        <div class="col-12 col-sm-12 mt-4">
+                            <label asp-for="StartTime">Start Time</label>
+                            <input asp-for="StartTime" class="form-control">
+                        </div>
+                        <div class="col-12 col-sm-12 mt-4">
+                            <div class="row">
+                                <div class="col-12 col-sm-12">
+                                    <label asp-for="EventType">Type of Event</label>
+                                </div>
+                                <div class="col-12 col-sm-12">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" asp-for="EventType" type="radio" name="EventType" id="Public" value="Public" checked>
+                                        <label class="form-check-label" asp-for="EventType" for="Public">Public</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" asp-for="EventType" type="radio" name="EventType" id="Private" value="Private">
+                                        <label class="form-check-label" asp-for="EventType" for="Private">Private</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 mt-4">
+                            <label asp-for="Duration">Number of Hours</label>
+                            <input asp-for="Duration" class="form-control">
+                        </div>
+                        <div class="col-12 col-sm-12 mt-4">
+                            <label asp-for="Description">Event Description</label>
+                            <textarea asp-for="Description" class="form-control"></textarea>
+                        </div>
+                        <div class="col-12 col-sm-12 mt-4">
+                            <label asp-for="OtherDetails">Otherdetails</label>
+                            <input asp-for="OtherDetails" class="form-control">
+                        </div>
+                        <div class="col-12 col-sm-12 mt-4">
+                            <label asp-for="Invitees">Invites</label>
+                            <input asp-for="Invitees" class="form-control">
+                        </div>
+                        <div class="col-12 col-sm-12 mt-4">
+                            <label asp-for="Organiser">Organizer</label>
+                            <input asp-for="Organiser" class="form-control">
+                        </div>
+                        <div class="col-6 col-sm-6 mt-3">
+                            <button type="reset" class="btn btn-outline-danger btn-block w-100">Cancel</button>
+                        </div>
+                        <div class="col-6 col-sm-6 mt-3">
+                            <button type="submit" class="btn btn-outline-success btn-block w-100">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+

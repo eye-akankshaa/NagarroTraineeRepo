@@ -1,0 +1,16 @@
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\bin\Debug\net5.0\Exercise8.exe
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\bin\Debug\net5.0\Exercise8.deps.json
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\bin\Debug\net5.0\Exercise8.runtimeconfig.json
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\bin\Debug\net5.0\Exercise8.runtimeconfig.dev.json
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\bin\Debug\net5.0\Exercise8.dll
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\bin\Debug\net5.0\ref\Exercise8.dll
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\bin\Debug\net5.0\Exercise8.pdb
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\obj\Debug\net5.0\Exercise8.csproj.AssemblyReference.cache
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\obj\Debug\net5.0\Exercise8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\obj\Debug\net5.0\Exercise8.AssemblyInfoInputs.cache
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\obj\Debug\net5.0\Exercise8.AssemblyInfo.cs
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\obj\Debug\net5.0\Exercise8.csproj.CoreCompileInputs.cache
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\obj\Debug\net5.0\Exercise8.dll
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\obj\Debug\net5.0\ref\Exercise8.dll
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\obj\Debug\net5.0\Exercise8.pdb
+C:\Users\akanshakhandelwal\source\repos\Exercise8\Exercise8\obj\Debug\net5.0\Exercise8.genruntimeconfig.cache
