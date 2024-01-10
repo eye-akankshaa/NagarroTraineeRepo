@@ -1,0 +1,72 @@
+.mainSection {
+  padding: 20px 50px 150px 50px;
+  background-color: #f2f3f4;
+}
+
+.bookDetails {
+  background-color: #f2f3f4;
+  border-left: 2px solid black;
+}
+
+.bookImage {
+  padding: 20px;
+  text-align: center;
+}
+
+.bookDescription {
+  padding: 20px;
+}
+
+.bookImage img {
+  height: 250px;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.rating {
+  padding: 5px;
+}
+
+.rating span {
+  color: grey;
+  font-weight: 600;
+}
+
+.rating img {
+  height: 20px;
+  margin: 4px;
+}
+
+.description {
+  font-size: 12px;
+}
+
+
+.bookDetails {
+  margin-top: 100px;
+}
+
+.myBtn {
+  background-color: black;
+  padding: 8px 25px;
+  border: none;
+  color: white;
+  font-size: 13px;
+  margin: 15px;
+  font-weight: 600;
+}
+
+.borrowBtn {
+  background-color: black;
+  padding: 8px 25px;
+  border: none;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+button[disabled]{
+  background-color: gray;
+}

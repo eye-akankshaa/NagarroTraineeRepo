@@ -1,0 +1,122 @@
+<app-header></app-header>
+
+
+
+<div class="mainSection">
+  <button class="myBtn" (click)="home()">Home</button>
+  <button class="myBtn" (click)="Back()">Back</button>
+  <button class="myBtn" (click)="logout()">Logout</button>
+
+
+  <div class="container">
+
+    <div class="addBookHeadline">
+
+
+      <h5>Books are timeless portals, inviting us to explore diverse worlds, empathize with varied lives, and enrich our
+        minds with the boundless power of words.</h5>
+      <h6>Add new books to your hub</h6>
+
+    </div>
+    <div class="addBookMainColumn">
+      <form [formGroup]="addBookForm" (ngSubmit)="onFormSubmit()" novalidate>
+
+        <div class="mb-3 form-group">
+
+          <input type="text" class="form-control" id="bookname" formControlName="bookname" [(ngModel)]="model.name"
+            name="bookname" placeholder="Book Name" />
+          <div *ngIf="
+              addBookForm.get('bookname')?.hasError('required') &&
+              addBookForm.get('bookname')?.touched
+            " class="text-danger">
+            BookName is required.
+          </div>
+        </div>
+
+        <div class="mb-3 form-group">
+          <input type="number" class="form-control" id="bookrating" formControlName="bookrating"
+            [(ngModel)]="model.rating" name="bookrating" min="1" max="5" placeholder="Book Rating" />
+          <div *ngIf="
+              addBookForm.get('bookrating')?.hasError('required') &&
+              addBookForm.get('bookrating')?.touched
+            " class="text-danger">
+            Rating is required.
+          </div>
+          <div *ngIf="
+            addBookForm.get('bookrating')?.hasError('min') &&
+            addBookForm.get('bookrating')?.touched
+          " class="text-danger">
+            Rating must be at least 1
+          </div>
+          <div *ngIf="
+            addBookForm.get('bookrating')?.hasError('max') &&
+            addBookForm.get('bookrating')?.touched
+          " class="text-danger">
+            Rating cannot exceed 5.
+          </div>
+        </div>
+
+
+        <div class="mb-3 form-group">
+          <input type="text" class="form-control" id="bookauthor" formControlName="bookauthor"
+            [(ngModel)]="model.author" name="bookauthor" placeholder="Book Author" />
+          <div *ngIf="
+                addBookForm.get('bookauthor')?.hasError('required') &&
+                addBookForm.get('bookauthor')?.touched
+              " class="text-danger">
+            BookAuthor is required.
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="mb-3 form-group">
+          <input type="text" class="form-control" id="bookgenre" formControlName="bookgenre" [(ngModel)]="model.genre"
+            name="bookgenre" placeholder="Book Genre" />
+          <div *ngIf="
+                addBookForm.get('bookgenre')?.hasError('required') &&
+                addBookForm.get('bookgenre')?.touched
+              " class="text-danger">
+            BookGenre is required.
+          </div>
+        </div>
+
+
+        <div class="mb-3 form-group">
+          <input type="text" class="form-control" id="bookdescription" formControlName="bookdescription"
+            [(ngModel)]="model.description" name="bookdescription" placeholder="Book Description" />
+          <div *ngIf="
+                addBookForm.get('bookdescription')?.hasError('required') &&
+                addBookForm.get('bookdescription')?.touched
+              " class="text-danger">
+            BookDescription is required.
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <button type="submit">Add</button>
+      </form>
+
+
+
+    </div>
+  </div>
+
+</div>
+
+
+<app-footer></app-footer>

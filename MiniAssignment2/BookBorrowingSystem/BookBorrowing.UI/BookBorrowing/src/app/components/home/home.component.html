@@ -1,0 +1,51 @@
+<app-header></app-header>
+<div class="btnSection">
+
+
+<button *ngIf="isLogin" class="myBtn" (click)="allBook()">All Books</button>
+<button *ngIf="isLogin" class="myBtn" (click)="myBook()">My Book</button>
+
+</div>
+<div class="mainSectionOuter row">
+  
+    <div class="col col-md-6 col-sm-6 col-xsm-12 frontImageContainer">
+
+    </div>
+<div class="mainSection col-md-6 col-sm-6 col-xsm-12 ">
+    <p class="mainHeading">Borrow a Book, Unleash Your Imagination</p>
+    <p class="mainContent">Your Next Chapter Starts Here</p>
+    <button *ngIf="!isLogin" class="loginBtn" (click)="borrowBook()">Login</button>
+    
+</div>
+
+    
+</div>
+<div class="bookSection">
+    <div class="bookListHeadline">
+
+        <h5>Books: windows to diverse worlds, catalysts for imagination, and companions on the journey of knowledge and
+            empathy.</h5>
+        <h6>Let's Explore Books</h6>
+
+    </div>
+    <div class="container">
+        <div class="row allCards">
+            
+            <div  class="col-sm-12 col-md-4 col-lg-2" *ngFor="let book of books"  >
+                
+                <div class="custom-card" *ngIf="!isLogin">
+                    <img src="../assets/images/book.jpg" alt="Book Image">
+                    <p class="bookTitle">{{book.name}}</p>
+                    <p class="bookDescription">{{book.author}}</p>
+                    <p class="bookRating">{{book.rating}}<span>/5</span></p>
+                    <button class="cardBtn" (click)="borrowBook()">Borrow book</button>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>
+<router-outlet></router-outlet>

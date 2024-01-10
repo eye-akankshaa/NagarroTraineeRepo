@@ -1,0 +1,116 @@
+<app-header></app-header>
+
+<div class="mainSection">
+  <button class="myBtn" (click)="home()">Home</button>
+  <button class="myBtn" (click)="myBook()">My Books</button>
+  <button class="myBtn" (click)="addBook()">Add Book</button>
+  <button class="myBtn" (click)="logout()">Logout</button>
+
+  <div class="container mt-4 searchBox">
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <input
+          type="text"
+          id="filterBook"
+          class="form-control"
+          [(ngModel)]="bookNameFilter"
+          (change)="applyFilters()"
+          placeholder="Filter by Book Name"
+        />
+      </div>
+      <div class="col-md-4">
+        <input
+          type="text"
+          id="filterAuthor"
+          class="form-control"
+          [(ngModel)]="authorNameFilter"
+          (change)="applyFilters()"
+          placeholder="Filter by Author Name"
+        />
+      </div>
+      <div class="col-md-4">
+        <input
+          type="text"
+          id="filterGenre"
+          class="form-control"
+          [(ngModel)]="genreFilter"
+          (change)="applyFilters()"
+          placeholder="Filter by Genre"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr class="headings">
+          <th>Title</th>
+          <th>Genre</th>
+          <th>Rating</th>
+
+          <th>Availability</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr
+          (click)="onBookDetails(book.bookId)"
+          *ngFor="let book of filteredBooks"
+        >
+          <td
+            class="bookName"
+            *ngIf="book.lent_By_User_id != null && book.lent_By_User_id!=currentUser.userId"
+          >
+            <div class="row">
+              <div class="col-sm-2 titleImage">
+                <img src="../assets/images/book.jpg" alt="book image" />
+              </div>
+              <div class="col-sm-10">
+                {{ book.name }}
+                <p>{{ book.author }}</p>
+              </div>
+            </div>
+          </td>
+          <td
+            *ngIf="book.lent_By_User_id != null && book.lent_By_User_id!=currentUser.userId"
+          >
+            {{ book.genre}}
+          </td>
+          <td
+            *ngIf="book.lent_By_User_id != null && book.lent_By_User_id!=currentUser.userId"
+          >
+            {{book.rating}}<span>/5</span>
+          </td>
+          <td
+            *ngIf="book.lent_By_User_id != null && book.lent_By_User_id!=currentUser.userId"
+          >
+            {{ book.is_Book_Available ? 'Yes' :'No' }}
+          </td>
+          <td
+            *ngIf="book.lent_By_User_id != null && book.lent_By_User_id!=currentUser.userId"
+          >
+            <div class="row">
+              <div class="col-lg-2 col-sm-5">
+                <img src="../assets/images/man.png" alt="profile image" />
+              </div>
+              <div class="col-lg-10 col-sm-7 row userBox">
+                <div class="col-12">
+                  Lent By UserId {{book.lent_By_User_id}}
+                </div>
+                <div
+                  class="col-12"
+                  *ngIf="book.currently_Borrowed_By_User_id!=0"
+                >
+                  Borrowed By User Id {{book.currently_Borrowed_By_User_id}}
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<app-footer></app-footer>

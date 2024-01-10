@@ -1,0 +1,31 @@
+p {
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding: 10px;
+  font-weight: lighter;
+
+  margin: 0;
+}
+
+.headerHeading {
+  font-family: 'Lilita One', cursive;
+  font-size: 22px;
+}
+
+.currentUser {
+  text-align: right;
+  padding: 0px 30px;
+  font-weight: 700;
+}
+
+p img {
+  height: 40px;
+  margin: 0px 10px;
+}
+
+
+.tokenCount {
+  text-align: right;
+  font-weight: 700;
+}

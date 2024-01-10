@@ -1,0 +1,18 @@
+<div>
+  <div class="row">
+    <div class="col-md-8 col-lg-8 col-sm-12 headerHeading">
+      <p>Nagarro BookBytes</p>
+    </div>
+    <div class="col-md-4 col-lg-4 col-sm-12 row">
+
+      <div *ngIf="isLoggedIn" class="col-6 tokenCount">
+        <p *ngIf="currentUser"><img src="../assets/images/token.png" alt="token image">{{Token}}</p>
+      </div>
+      <div *ngIf="isLoggedIn" class="col-6 currentUser">
+        <p *ngIf="currentUser"><img src="../assets/images/profile.png" alt="profile image">{{Name}}</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,97 @@
+<app-header></app-header>
+
+<div class="mainSection">
+  <button class="myBtn" (click)="home()">Home</button>
+  <button class="myBtn" (click)="back()">Back</button>
+  <button class="myBtn" (click)="logout()">Logout</button>
+
+  <div class="container mt-4 searchBox"></div>
+
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr class="headings">
+          <th>Title</th>
+          <th>Genre</th>
+          <th>Rating</th>
+          <th>Availability Status</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let book of filteredBooks">
+          <td
+            (click)="onBookDetails(book.bookId)"
+            class="bookName"
+            *ngIf="book.lent_By_User_id==currentUser.userId || book.currently_Borrowed_By_User_id==currentUser.userId"
+          >
+            <div class="row">
+              <div class="col-sm-2 titleImage">
+                <img src="../assets/images/book.jpg" alt="book image" />
+              </div>
+              <div class="col-sm-10">
+                {{ book.name }}
+                <p>{{ book.author }}</p>
+              </div>
+            </div>
+          </td>
+          <td
+            (click)="onBookDetails(book.bookId)"
+            *ngIf="book.lent_By_User_id==currentUser.userId || book.currently_Borrowed_By_User_id==currentUser.userId"
+          >
+            {{ book.genre}}
+          </td>
+          <td
+            (click)="onBookDetails(book.bookId)"
+            *ngIf="book.lent_By_User_id==currentUser.userId || book.currently_Borrowed_By_User_id==currentUser.userId"
+          >
+            {{book.rating}}<span>/5</span>
+          </td>
+          <td
+            (click)="onBookDetails(book.bookId)"
+            *ngIf="book.lent_By_User_id==currentUser.userId || book.currently_Borrowed_By_User_id==currentUser.userId"
+          >
+            {{ book.is_Book_Available ? 'Yes' : 'No' }}
+          </td>
+          <td
+            *ngIf="book.lent_By_User_id==currentUser.userId || book.currently_Borrowed_By_User_id==currentUser.userId"
+          >
+            <div
+              class="borrowedImg"
+              *ngIf="book.currently_Borrowed_By_User_id!=0"
+            >
+              <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <img src="../assets/images/man.png" alt="profile image" />
+                </div>
+
+                <div class="col-lg-9 col-md-6">
+                  <div>
+                    <span
+                      *ngIf="book.lent_By_User_id==currentUser.userId && book.currently_Borrowed_By_User_id!=0"
+                      >Borrowed By User Id {{ book.currently_Borrowed_By_User_id
+                      }}</span
+                    >
+                    <span
+                      *ngIf="book.currently_Borrowed_By_User_id==currentUser.userId"
+                      >Borrowed From User Id {{book.lent_By_User_id}}</span
+                    >
+                  </div>
+                  <button
+                    class="returnBtn"
+                    *ngIf="book.currently_Borrowed_By_User_id==currentUser.userId"
+                    (click)="returnBook(book.bookId,book.lent_By_User_id,book.currently_Borrowed_By_User_id)"
+                  >
+                    Return Book
+                  </button>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<app-footer></app-footer>

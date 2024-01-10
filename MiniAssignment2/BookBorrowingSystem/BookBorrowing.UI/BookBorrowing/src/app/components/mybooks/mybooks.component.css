@@ -1,0 +1,128 @@
+.mainSection {
+
+    padding: 20px 50px 150px 50px;
+    background-color: #f2f3f4;
+
+}
+
+.mainHeading {
+    color: black;
+    font-size: 40px;
+}
+
+.mainContent {
+    color: black;
+    font-size: 20px;
+}
+
+.loginBtn {
+
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    width: 100%;
+}
+
+td span {
+    color: grey;
+    font-weight: 600;
+}
+
+tr {
+    margin-bottom: 30px;
+
+}
+
+.headings th {
+    background-color: #f2f3f4;
+    color: gray;
+    border: none;
+}
+
+td {
+    padding: 15px;
+
+}
+
+
+.bookName p {
+    font-weight: 600;
+}
+
+div img {
+    width: 100px;
+    height: 100px;
+}
+
+.titleImage {
+    height: 60px;
+    width: 80px;
+    overflow: hidden;
+}
+
+.titleImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headerSection {
+    padding: 10px;
+    background-color: white;
+}
+
+.myBtn {
+    background-color: black;
+    padding: 8px 25px;
+    border: none;
+    color: white;
+    font-size: 13px;
+    margin: 15px;
+    font-weight: 600;
+}
+
+.returnBtn {
+    background-color: red;
+    padding: 8px 25px;
+    border: none;
+    color: white;
+    font-size: 13px;
+    margin: 15px;
+    font-weight: 600;
+    /* z-index: 2; */
+
+}
+
+
+input {
+    border: none;
+    border-radius: 0px;
+    margin: 2px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+/* .badge{
+    font-size: 15px;
+} */
+
+div img {
+
+    height: 40px;
+    width: 40px;
+    margin-inline: 15px;
+}
+
+.borrowedImg {
+
+    color: gray;
+    font-weight: 600;
+}

@@ -1,0 +1,47 @@
+footer {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.icon-container {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.icon-container i {
+  margin: 0 10px;
+  cursor: pointer;
+
+}
+
+.connectBox {
+  padding: 40px 20px 0px 20px;
+  text-align: center;
+}
+
+.connectBox h5 {
+  font-weight: bolder;
+}
+
+.connectBox p {
+  color: grey;
+  font-weight: 400;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+  margin: 20px;
+}
+
+.footerLogoSection {
+  padding: 20px 20px 0px 20px;
+}
+
+.footerCopySection {
+  padding: 20px 20px 0px 20px;
+}
